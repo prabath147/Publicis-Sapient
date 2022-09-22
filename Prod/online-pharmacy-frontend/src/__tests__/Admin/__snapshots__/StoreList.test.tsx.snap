@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component created 1`] = `
+<div>
+  <div
+    className="mantine-Paper-root mantine-Card-root mantine-ergsfy"
+  >
+    <div
+      className="mantine-Container-root mantine-15pjuqq"
+    >
+      <h1>
+        List of Stores
+      </h1>
+      <table
+        className="mantine-Table-root mantine-b146xb"
+        data-hover={true}
+      >
+        <thead>
+          <tr>
+            <th>
+              Store Id
+            </th>
+            <th>
+              Manager Id
+            </th>
+            <th>
+              Store Name
+            </th>
+            <th>
+              City
+            </th>
+            <th>
+              Registration Date
+            </th>
+            <th>
+              Revenue
+            </th>
+          </tr>
+        </thead>
+        <tbody />
+      </table>
+      <div
+        className="mantine-Divider-root mantine-Divider-horizontal mantine-polw48"
+        role="separator"
+      />
+      <div
+        className="mantine-Group-root mantine-1u7f61y"
+      >
+        <div
+          className="mantine-Group-root mantine-Group-child mantine-hsvael"
+          role="navigation"
+        >
+          <button
+            aria-disabled={true}
+            className="mantine-Group-child mantine-Pagination-item mantine-18brkxg"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="none"
+              height={16}
+              viewBox="0 0 16 16"
+              width={16}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            aria-current="page"
+            aria-label={null}
+            className="mantine-Group-child mantine-Pagination-item mantine-18brkxg"
+            data-active={true}
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-disabled={true}
+            className="mantine-Group-child mantine-Pagination-item mantine-18brkxg"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="none"
+              height={16}
+              viewBox="0 0 16 16"
+              width={16}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`component data loaded 1`] = `
+<div>
+  <div
+    className="mantine-Paper-root mantine-Card-root mantine-ergsfy"
+  >
+    <div
+      className="mantine-Container-root mantine-15pjuqq"
+    >
+      <h1>
+        List of Stores
+      </h1>
+      <table
+        className="mantine-Table-root mantine-b146xb"
+        data-hover={true}
+      >
+        <thead>
+          <tr>
+            <th>
+              Store Id
+            </th>
+            <th>
+              Manager Id
+            </th>
+            <th>
+              Store Name
+            </th>
+            <th>
+              City
+            </th>
+            <th>
+              Registration Date
+            </th>
+            <th>
+              Revenue
+            </th>
+          </tr>
+        </thead>
+        <tbody />
+      </table>
+      <div
+        className="mantine-Divider-root mantine-Divider-horizontal mantine-polw48"
+        role="separator"
+      />
+      <div
+        className="mantine-Group-root mantine-1u7f61y"
+      >
+        <div
+          className="mantine-Group-root mantine-Group-child mantine-hsvael"
+          role="navigation"
+        >
+          <button
+            aria-disabled={true}
+            className="mantine-Group-child mantine-Pagination-item mantine-18brkxg"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="none"
+              height={16}
+              viewBox="0 0 16 16"
+              width={16}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            aria-current="page"
+            aria-label={null}
+            className="mantine-Group-child mantine-Pagination-item mantine-18brkxg"
+            data-active={true}
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-disabled={true}
+            className="mantine-Group-child mantine-Pagination-item mantine-18brkxg"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            <svg
+              fill="none"
+              height={16}
+              viewBox="0 0 16 16"
+              width={16}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

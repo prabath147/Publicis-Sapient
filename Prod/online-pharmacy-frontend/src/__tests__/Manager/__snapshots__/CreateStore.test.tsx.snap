@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component created should render the component 1`] = `<DocumentFragment />`;
+
+exports[`component created should render the handle create call 1`] = `<DocumentFragment />`;
+
+exports[`component created should render the handle create call 2`] = `<DocumentFragment />`;

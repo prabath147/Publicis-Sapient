@@ -1,0 +1,1098 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideMenu Testing Side Menu as admin 1`] = `
+<DocumentFragment>
+  <nav
+    class="mantine-Navbar-root mantine-juxap2"
+    data-hidden="true"
+  >
+    <div
+      class="mantine-1usza2a"
+    >
+      <button
+        class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-MediaQuery-media mantine-1ucp3rm"
+        data-testid="burger-btn-sidebar"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-xmark fa-lg "
+          data-icon="xmark"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <div
+        class="mantine-Image-root mantine-1jjiwdi"
+        style="width: 100%; height: auto;"
+      >
+        <figure
+          class="mantine-11nhzn5 mantine-Image-figure"
+        >
+          <div
+            class="mantine-qqmv3w mantine-Image-imageWrapper"
+          >
+            <img
+              class="mantine-3y8yz3 mantine-Image-image"
+              src="logo_white.png"
+              style="object-fit: contain; width: 100%; height: auto;"
+            />
+          </div>
+        </figure>
+      </div>
+    </div>
+    <div
+      class="mantine-Divider-root mantine-Divider-horizontal mantine-1lis5e"
+      role="separator"
+    />
+    <div
+      class="mantine-1thh00a"
+    >
+      <div
+        class="mantine-Grid-root mantine-nsdj"
+      >
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/admin-dashboard"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-house fa-lg "
+                data-icon="house"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                  fill="currentColor"
+                />
+              </svg>
+              Admin Dashboard
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/store"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-store fa-lg "
+                data-icon="store"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M547.6 103.8L490.3 13.1C485.2 5 476.1 0 466.4 0H109.6C99.9 0 90.8 5 85.7 13.1L28.3 103.8c-29.6 46.8-3.4 111.9 51.9 119.4c4 .5 8.1 .8 12.1 .8c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.2 0 49.3-11.4 65.2-29c16 17.6 39.1 29 65.2 29c4.1 0 8.1-.3 12.1-.8c55.5-7.4 81.8-72.5 52.1-119.4zM499.7 254.9l-.1 0c-5.3 .7-10.7 1.1-16.2 1.1c-12.4 0-24.3-1.9-35.4-5.3V384H128V250.6c-11.2 3.5-23.2 5.4-35.6 5.4c-5.5 0-11-.4-16.3-1.1l-.1 0c-4.1-.6-8.1-1.3-12-2.3V384v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V384 252.6c-4 1-8 1.8-12.3 2.3z"
+                  fill="currentColor"
+                />
+              </svg>
+              Stores
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/products-page"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-pills fa-lg "
+                data-icon="pills"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M112 96c-26.5 0-48 21.5-48 48V256h96V144c0-26.5-21.5-48-48-48zM0 144C0 82.1 50.1 32 112 32s112 50.1 112 112V368c0 61.9-50.1 112-112 112S0 429.9 0 368V144zM554.9 399.4c-7.1 12.3-23.7 13.1-33.8 3.1L333.5 214.9c-10-10-9.3-26.7 3.1-33.8C360 167.7 387.1 160 416 160c88.4 0 160 71.6 160 160c0 28.9-7.7 56-21.1 79.4zm-59.5 59.5C472 472.3 444.9 480 416 480c-88.4 0-160-71.6-160-160c0-28.9 7.7-56 21.1-79.4c7.1-12.3 23.7-13.1 33.8-3.1L498.5 425.1c10 10 9.3 26.7-3.1 33.8z"
+                  fill="currentColor"
+                />
+              </svg>
+              Products
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/manager"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-user fa-lg "
+                data-icon="user"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96 57.3 96 128s57.3 128 128 128zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+                  fill="currentColor"
+                />
+              </svg>
+              Managers
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/AdminSubscriptionPack"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-ticket fa-lg "
+                data-icon="ticket"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M64 64C28.7 64 0 92.7 0 128v80c26.5 0 48 21.5 48 48s-21.5 48-48 48v80c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V304c-26.5 0-48-21.5-48-48s21.5-48 48-48V128c0-35.3-28.7-64-64-64H64zm64 96l0 192H448V160H128zm-32 0c0-17.7 14.3-32 32-32H448c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32V160z"
+                  fill="currentColor"
+                />
+              </svg>
+              Subscriptions
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/admin/notifications"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-bell fa-lg "
+                data-icon="bell"
+                data-prefix="far"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 32V49.88C328.5 61.39 384 124.2 384 200V233.4C384 278.8 399.5 322.9 427.8 358.4L442.7 377C448.5 384.2 449.6 394.1 445.6 402.4C441.6 410.7 433.2 416 424 416H24C14.77 416 6.365 410.7 2.369 402.4C-1.628 394.1-.504 384.2 5.26 377L20.17 358.4C48.54 322.9 64 278.8 64 233.4V200C64 124.2 119.5 61.39 192 49.88V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32V32zM216 96C158.6 96 112 142.6 112 200V233.4C112 281.3 98.12 328 72.31 368H375.7C349.9 328 336 281.3 336 233.4V200C336 142.6 289.4 96 232 96H216zM288 448C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288z"
+                  fill="currentColor"
+                />
+              </svg>
+              Notifications
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/admin/category"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-tag fa-lg "
+                data-icon="tag"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 96c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"
+                  fill="currentColor"
+                />
+              </svg>
+              Category
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mantine-khtkeg"
+    >
+      <button
+        aria-controls="mantine-r0-dropdown"
+        aria-expanded="false"
+        aria-haspopup="menu"
+        class="mantine-UnstyledButton-root mantine-1ysirc4"
+        data-testid="btn-badge"
+        id="mantine-r0-target"
+        type="button"
+      >
+        <div
+          class="mantine-Avatar-root mantine-1tqi9xs"
+        >
+          <div
+            class="mantine-ttafi4 mantine-Avatar-placeholder"
+          >
+            <svg
+              class="mantine-1vmgx88 mantine-Avatar-placeholderIcon"
+              fill="none"
+              height="15"
+              viewBox="0 0 15 15"
+              width="15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M0.877014 7.49988C0.877014 3.84219 3.84216 0.877045 7.49985 0.877045C11.1575 0.877045 14.1227 3.84219 14.1227 7.49988C14.1227 11.1575 11.1575 14.1227 7.49985 14.1227C3.84216 14.1227 0.877014 11.1575 0.877014 7.49988ZM7.49985 1.82704C4.36683 1.82704 1.82701 4.36686 1.82701 7.49988C1.82701 8.97196 2.38774 10.3131 3.30727 11.3213C4.19074 9.94119 5.73818 9.02499 7.50023 9.02499C9.26206 9.02499 10.8093 9.94097 11.6929 11.3208C12.6121 10.3127 13.1727 8.97172 13.1727 7.49988C13.1727 4.36686 10.6328 1.82704 7.49985 1.82704ZM10.9818 11.9787C10.2839 10.7795 8.9857 9.97499 7.50023 9.97499C6.01458 9.97499 4.71624 10.7797 4.01845 11.9791C4.97952 12.7272 6.18765 13.1727 7.49985 13.1727C8.81227 13.1727 10.0206 12.727 10.9818 11.9787ZM5.14999 6.50487C5.14999 5.207 6.20212 4.15487 7.49999 4.15487C8.79786 4.15487 9.84999 5.207 9.84999 6.50487C9.84999 7.80274 8.79786 8.85487 7.49999 8.85487C6.20212 8.85487 5.14999 7.80274 5.14999 6.50487ZM7.49999 5.10487C6.72679 5.10487 6.09999 5.73167 6.09999 6.50487C6.09999 7.27807 6.72679 7.90487 7.49999 7.90487C8.27319 7.90487 8.89999 7.27807 8.89999 6.50487C8.89999 5.73167 8.27319 5.10487 7.49999 5.10487Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`SideMenu Testing Side Menu as admin 2`] = `
+<DocumentFragment>
+  <nav
+    class="mantine-Navbar-root mantine-juxap2"
+    data-hidden="true"
+  >
+    <div
+      class="mantine-1usza2a"
+    >
+      <button
+        class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-MediaQuery-media mantine-1ucp3rm"
+        data-testid="burger-btn-sidebar"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-xmark fa-lg "
+          data-icon="xmark"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <div
+        class="mantine-Image-root mantine-1jjiwdi"
+        style="width: 100%; height: auto;"
+      >
+        <figure
+          class="mantine-11nhzn5 mantine-Image-figure"
+        >
+          <div
+            class="mantine-qqmv3w mantine-Image-imageWrapper"
+          >
+            <img
+              class="mantine-3y8yz3 mantine-Image-image"
+              src="logo_white.png"
+              style="object-fit: contain; width: 100%; height: auto;"
+            />
+          </div>
+        </figure>
+      </div>
+    </div>
+    <div
+      class="mantine-Divider-root mantine-Divider-horizontal mantine-1lis5e"
+      role="separator"
+    />
+    <div
+      class="mantine-1thh00a"
+    >
+      <div
+        class="mantine-Grid-root mantine-nsdj"
+      >
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/manager-dashboard"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-house fa-lg "
+                data-icon="house"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                  fill="currentColor"
+                />
+              </svg>
+              Manager Dashboard
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/manager/notifications"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-bell fa-lg "
+                data-icon="bell"
+                data-prefix="far"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 32V49.88C328.5 61.39 384 124.2 384 200V233.4C384 278.8 399.5 322.9 427.8 358.4L442.7 377C448.5 384.2 449.6 394.1 445.6 402.4C441.6 410.7 433.2 416 424 416H24C14.77 416 6.365 410.7 2.369 402.4C-1.628 394.1-.504 384.2 5.26 377L20.17 358.4C48.54 322.9 64 278.8 64 233.4V200C64 124.2 119.5 61.39 192 49.88V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32V32zM216 96C158.6 96 112 142.6 112 200V233.4C112 281.3 98.12 328 72.31 368H375.7C349.9 328 336 281.3 336 233.4V200C336 142.6 289.4 96 232 96H216zM288 448C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288z"
+                  fill="currentColor"
+                />
+              </svg>
+              Notifications
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mantine-khtkeg"
+    >
+      <button
+        aria-controls="mantine-r1-dropdown"
+        aria-expanded="false"
+        aria-haspopup="menu"
+        class="mantine-UnstyledButton-root mantine-1ysirc4"
+        data-testid="btn-badge"
+        id="mantine-r1-target"
+        type="button"
+      >
+        <div
+          class="mantine-Avatar-root mantine-1tqi9xs"
+        >
+          <div
+            class="mantine-ttafi4 mantine-Avatar-placeholder"
+          >
+            <svg
+              class="mantine-1vmgx88 mantine-Avatar-placeholderIcon"
+              fill="none"
+              height="15"
+              viewBox="0 0 15 15"
+              width="15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M0.877014 7.49988C0.877014 3.84219 3.84216 0.877045 7.49985 0.877045C11.1575 0.877045 14.1227 3.84219 14.1227 7.49988C14.1227 11.1575 11.1575 14.1227 7.49985 14.1227C3.84216 14.1227 0.877014 11.1575 0.877014 7.49988ZM7.49985 1.82704C4.36683 1.82704 1.82701 4.36686 1.82701 7.49988C1.82701 8.97196 2.38774 10.3131 3.30727 11.3213C4.19074 9.94119 5.73818 9.02499 7.50023 9.02499C9.26206 9.02499 10.8093 9.94097 11.6929 11.3208C12.6121 10.3127 13.1727 8.97172 13.1727 7.49988C13.1727 4.36686 10.6328 1.82704 7.49985 1.82704ZM10.9818 11.9787C10.2839 10.7795 8.9857 9.97499 7.50023 9.97499C6.01458 9.97499 4.71624 10.7797 4.01845 11.9791C4.97952 12.7272 6.18765 13.1727 7.49985 13.1727C8.81227 13.1727 10.0206 12.727 10.9818 11.9787ZM5.14999 6.50487C5.14999 5.207 6.20212 4.15487 7.49999 4.15487C8.79786 4.15487 9.84999 5.207 9.84999 6.50487C9.84999 7.80274 8.79786 8.85487 7.49999 8.85487C6.20212 8.85487 5.14999 7.80274 5.14999 6.50487ZM7.49999 5.10487C6.72679 5.10487 6.09999 5.73167 6.09999 6.50487C6.09999 7.27807 6.72679 7.90487 7.49999 7.90487C8.27319 7.90487 8.89999 7.27807 8.89999 6.50487C8.89999 5.73167 8.27319 5.10487 7.49999 5.10487Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`SideMenu Testing Side Menu as admin 3`] = `
+<DocumentFragment>
+  <nav
+    class="mantine-Navbar-root mantine-juxap2"
+  >
+    <div
+      class="mantine-1usza2a"
+    >
+      <button
+        class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-MediaQuery-media mantine-1ucp3rm"
+        data-testid="burger-btn-sidebar"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-xmark fa-lg "
+          data-icon="xmark"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <div
+        class="mantine-Image-root mantine-1jjiwdi"
+        style="width: 100%; height: auto;"
+      >
+        <figure
+          class="mantine-11nhzn5 mantine-Image-figure"
+        >
+          <div
+            class="mantine-qqmv3w mantine-Image-imageWrapper"
+          >
+            <img
+              class="mantine-3y8yz3 mantine-Image-image"
+              src="logo_white.png"
+              style="object-fit: contain; width: 100%; height: auto;"
+            />
+          </div>
+        </figure>
+      </div>
+    </div>
+    <div
+      class="mantine-Divider-root mantine-Divider-horizontal mantine-1lis5e"
+      role="separator"
+    />
+    <div
+      class="mantine-1thh00a"
+    >
+      <div
+        class="mantine-Grid-root mantine-nsdj"
+      >
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/admin-dashboard"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-house fa-lg "
+                data-icon="house"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                  fill="currentColor"
+                />
+              </svg>
+              Admin Dashboard
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/store"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-store fa-lg "
+                data-icon="store"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M547.6 103.8L490.3 13.1C485.2 5 476.1 0 466.4 0H109.6C99.9 0 90.8 5 85.7 13.1L28.3 103.8c-29.6 46.8-3.4 111.9 51.9 119.4c4 .5 8.1 .8 12.1 .8c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.2 0 49.3-11.4 65.2-29c16 17.6 39.1 29 65.2 29c4.1 0 8.1-.3 12.1-.8c55.5-7.4 81.8-72.5 52.1-119.4zM499.7 254.9l-.1 0c-5.3 .7-10.7 1.1-16.2 1.1c-12.4 0-24.3-1.9-35.4-5.3V384H128V250.6c-11.2 3.5-23.2 5.4-35.6 5.4c-5.5 0-11-.4-16.3-1.1l-.1 0c-4.1-.6-8.1-1.3-12-2.3V384v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V384 252.6c-4 1-8 1.8-12.3 2.3z"
+                  fill="currentColor"
+                />
+              </svg>
+              Stores
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/products-page"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-pills fa-lg "
+                data-icon="pills"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M112 96c-26.5 0-48 21.5-48 48V256h96V144c0-26.5-21.5-48-48-48zM0 144C0 82.1 50.1 32 112 32s112 50.1 112 112V368c0 61.9-50.1 112-112 112S0 429.9 0 368V144zM554.9 399.4c-7.1 12.3-23.7 13.1-33.8 3.1L333.5 214.9c-10-10-9.3-26.7 3.1-33.8C360 167.7 387.1 160 416 160c88.4 0 160 71.6 160 160c0 28.9-7.7 56-21.1 79.4zm-59.5 59.5C472 472.3 444.9 480 416 480c-88.4 0-160-71.6-160-160c0-28.9 7.7-56 21.1-79.4c7.1-12.3 23.7-13.1 33.8-3.1L498.5 425.1c10 10 9.3 26.7-3.1 33.8z"
+                  fill="currentColor"
+                />
+              </svg>
+              Products
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/manager"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-user fa-lg "
+                data-icon="user"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96 57.3 96 128s57.3 128 128 128zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+                  fill="currentColor"
+                />
+              </svg>
+              Managers
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/AdminSubscriptionPack"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-ticket fa-lg "
+                data-icon="ticket"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M64 64C28.7 64 0 92.7 0 128v80c26.5 0 48 21.5 48 48s-21.5 48-48 48v80c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V304c-26.5 0-48-21.5-48-48s21.5-48 48-48V128c0-35.3-28.7-64-64-64H64zm64 96l0 192H448V160H128zm-32 0c0-17.7 14.3-32 32-32H448c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32V160z"
+                  fill="currentColor"
+                />
+              </svg>
+              Subscriptions
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/admin/notifications"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-bell fa-lg "
+                data-icon="bell"
+                data-prefix="far"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 32V49.88C328.5 61.39 384 124.2 384 200V233.4C384 278.8 399.5 322.9 427.8 358.4L442.7 377C448.5 384.2 449.6 394.1 445.6 402.4C441.6 410.7 433.2 416 424 416H24C14.77 416 6.365 410.7 2.369 402.4C-1.628 394.1-.504 384.2 5.26 377L20.17 358.4C48.54 322.9 64 278.8 64 233.4V200C64 124.2 119.5 61.39 192 49.88V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32V32zM216 96C158.6 96 112 142.6 112 200V233.4C112 281.3 98.12 328 72.31 368H375.7C349.9 328 336 281.3 336 233.4V200C336 142.6 289.4 96 232 96H216zM288 448C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288z"
+                  fill="currentColor"
+                />
+              </svg>
+              Notifications
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/admin/category"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-tag fa-lg "
+                data-icon="tag"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 96c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"
+                  fill="currentColor"
+                />
+              </svg>
+              Category
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mantine-khtkeg"
+    >
+      <button
+        aria-controls="mantine-r2-dropdown"
+        aria-expanded="false"
+        aria-haspopup="menu"
+        class="mantine-UnstyledButton-root mantine-1ysirc4"
+        data-testid="btn-badge"
+        id="mantine-r2-target"
+        type="button"
+      >
+        <div
+          class="mantine-Avatar-root mantine-1tqi9xs"
+        >
+          <div
+            class="mantine-ttafi4 mantine-Avatar-placeholder"
+          >
+            <svg
+              class="mantine-1vmgx88 mantine-Avatar-placeholderIcon"
+              fill="none"
+              height="15"
+              viewBox="0 0 15 15"
+              width="15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M0.877014 7.49988C0.877014 3.84219 3.84216 0.877045 7.49985 0.877045C11.1575 0.877045 14.1227 3.84219 14.1227 7.49988C14.1227 11.1575 11.1575 14.1227 7.49985 14.1227C3.84216 14.1227 0.877014 11.1575 0.877014 7.49988ZM7.49985 1.82704C4.36683 1.82704 1.82701 4.36686 1.82701 7.49988C1.82701 8.97196 2.38774 10.3131 3.30727 11.3213C4.19074 9.94119 5.73818 9.02499 7.50023 9.02499C9.26206 9.02499 10.8093 9.94097 11.6929 11.3208C12.6121 10.3127 13.1727 8.97172 13.1727 7.49988C13.1727 4.36686 10.6328 1.82704 7.49985 1.82704ZM10.9818 11.9787C10.2839 10.7795 8.9857 9.97499 7.50023 9.97499C6.01458 9.97499 4.71624 10.7797 4.01845 11.9791C4.97952 12.7272 6.18765 13.1727 7.49985 13.1727C8.81227 13.1727 10.0206 12.727 10.9818 11.9787ZM5.14999 6.50487C5.14999 5.207 6.20212 4.15487 7.49999 4.15487C8.79786 4.15487 9.84999 5.207 9.84999 6.50487C9.84999 7.80274 8.79786 8.85487 7.49999 8.85487C6.20212 8.85487 5.14999 7.80274 5.14999 6.50487ZM7.49999 5.10487C6.72679 5.10487 6.09999 5.73167 6.09999 6.50487C6.09999 7.27807 6.72679 7.90487 7.49999 7.90487C8.27319 7.90487 8.89999 7.27807 8.89999 6.50487C8.89999 5.73167 8.27319 5.10487 7.49999 5.10487Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`SideMenu testing burger click 1`] = `
+<DocumentFragment>
+  <nav
+    class="mantine-Navbar-root mantine-juxap2"
+    data-hidden="true"
+  >
+    <div
+      class="mantine-1usza2a"
+    >
+      <button
+        class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-MediaQuery-media mantine-1ucp3rm"
+        data-testid="burger-btn-sidebar"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-xmark fa-lg "
+          data-icon="xmark"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <div
+        class="mantine-Image-root mantine-1jjiwdi"
+        style="width: 100%; height: auto;"
+      >
+        <figure
+          class="mantine-11nhzn5 mantine-Image-figure"
+        >
+          <div
+            class="mantine-qqmv3w mantine-Image-imageWrapper"
+          >
+            <img
+              class="mantine-3y8yz3 mantine-Image-image"
+              src="logo_white.png"
+              style="object-fit: contain; width: 100%; height: auto;"
+            />
+          </div>
+        </figure>
+      </div>
+    </div>
+    <div
+      class="mantine-Divider-root mantine-Divider-horizontal mantine-1lis5e"
+      role="separator"
+    />
+    <div
+      class="mantine-1thh00a"
+    >
+      <div
+        class="mantine-Grid-root mantine-nsdj"
+      >
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/admin-dashboard"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-house fa-lg "
+                data-icon="house"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                  fill="currentColor"
+                />
+              </svg>
+              Admin Dashboard
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/store"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-store fa-lg "
+                data-icon="store"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M547.6 103.8L490.3 13.1C485.2 5 476.1 0 466.4 0H109.6C99.9 0 90.8 5 85.7 13.1L28.3 103.8c-29.6 46.8-3.4 111.9 51.9 119.4c4 .5 8.1 .8 12.1 .8c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.2 0 49.3-11.4 65.2-29c16 17.6 39.1 29 65.2 29c4.1 0 8.1-.3 12.1-.8c55.5-7.4 81.8-72.5 52.1-119.4zM499.7 254.9l-.1 0c-5.3 .7-10.7 1.1-16.2 1.1c-12.4 0-24.3-1.9-35.4-5.3V384H128V250.6c-11.2 3.5-23.2 5.4-35.6 5.4c-5.5 0-11-.4-16.3-1.1l-.1 0c-4.1-.6-8.1-1.3-12-2.3V384v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V384 252.6c-4 1-8 1.8-12.3 2.3z"
+                  fill="currentColor"
+                />
+              </svg>
+              Stores
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/products-page"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-pills fa-lg "
+                data-icon="pills"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M112 96c-26.5 0-48 21.5-48 48V256h96V144c0-26.5-21.5-48-48-48zM0 144C0 82.1 50.1 32 112 32s112 50.1 112 112V368c0 61.9-50.1 112-112 112S0 429.9 0 368V144zM554.9 399.4c-7.1 12.3-23.7 13.1-33.8 3.1L333.5 214.9c-10-10-9.3-26.7 3.1-33.8C360 167.7 387.1 160 416 160c88.4 0 160 71.6 160 160c0 28.9-7.7 56-21.1 79.4zm-59.5 59.5C472 472.3 444.9 480 416 480c-88.4 0-160-71.6-160-160c0-28.9 7.7-56 21.1-79.4c7.1-12.3 23.7-13.1 33.8-3.1L498.5 425.1c10 10 9.3 26.7-3.1 33.8z"
+                  fill="currentColor"
+                />
+              </svg>
+              Products
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/manager"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-user fa-lg "
+                data-icon="user"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96 57.3 96 128s57.3 128 128 128zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+                  fill="currentColor"
+                />
+              </svg>
+              Managers
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/AdminSubscriptionPack"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-ticket fa-lg "
+                data-icon="ticket"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M64 64C28.7 64 0 92.7 0 128v80c26.5 0 48 21.5 48 48s-21.5 48-48 48v80c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V304c-26.5 0-48-21.5-48-48s21.5-48 48-48V128c0-35.3-28.7-64-64-64H64zm64 96l0 192H448V160H128zm-32 0c0-17.7 14.3-32 32-32H448c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32V160z"
+                  fill="currentColor"
+                />
+              </svg>
+              Subscriptions
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/admin/notifications"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-bell fa-lg "
+                data-icon="bell"
+                data-prefix="far"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 32V49.88C328.5 61.39 384 124.2 384 200V233.4C384 278.8 399.5 322.9 427.8 358.4L442.7 377C448.5 384.2 449.6 394.1 445.6 402.4C441.6 410.7 433.2 416 424 416H24C14.77 416 6.365 410.7 2.369 402.4C-1.628 394.1-.504 384.2 5.26 377L20.17 358.4C48.54 322.9 64 278.8 64 233.4V200C64 124.2 119.5 61.39 192 49.88V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32V32zM216 96C158.6 96 112 142.6 112 200V233.4C112 281.3 98.12 328 72.31 368H375.7C349.9 328 336 281.3 336 233.4V200C336 142.6 289.4 96 232 96H216zM288 448C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288z"
+                  fill="currentColor"
+                />
+              </svg>
+              Notifications
+            </div>
+          </a>
+        </div>
+        <div
+          class="mantine-Col-root mantine-lungan"
+        >
+          <a
+            href="/admin/category"
+            style="text-decoration: none;"
+          >
+            <div
+              class="mantine-Container-root mantine-13w1ixy"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-tag fa-lg "
+                data-icon="tag"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style="margin-left: 10px; margin-right: 10px;"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 96c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"
+                  fill="currentColor"
+                />
+              </svg>
+              Category
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mantine-khtkeg"
+    >
+      <button
+        aria-controls="mantine-r3-dropdown"
+        aria-expanded="false"
+        aria-haspopup="menu"
+        class="mantine-UnstyledButton-root mantine-1ysirc4"
+        data-testid="btn-badge"
+        id="mantine-r3-target"
+        type="button"
+      >
+        <div
+          class="mantine-Avatar-root mantine-1tqi9xs"
+        >
+          <div
+            class="mantine-ttafi4 mantine-Avatar-placeholder"
+          >
+            <svg
+              class="mantine-1vmgx88 mantine-Avatar-placeholderIcon"
+              fill="none"
+              height="15"
+              viewBox="0 0 15 15"
+              width="15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M0.877014 7.49988C0.877014 3.84219 3.84216 0.877045 7.49985 0.877045C11.1575 0.877045 14.1227 3.84219 14.1227 7.49988C14.1227 11.1575 11.1575 14.1227 7.49985 14.1227C3.84216 14.1227 0.877014 11.1575 0.877014 7.49988ZM7.49985 1.82704C4.36683 1.82704 1.82701 4.36686 1.82701 7.49988C1.82701 8.97196 2.38774 10.3131 3.30727 11.3213C4.19074 9.94119 5.73818 9.02499 7.50023 9.02499C9.26206 9.02499 10.8093 9.94097 11.6929 11.3208C12.6121 10.3127 13.1727 8.97172 13.1727 7.49988C13.1727 4.36686 10.6328 1.82704 7.49985 1.82704ZM10.9818 11.9787C10.2839 10.7795 8.9857 9.97499 7.50023 9.97499C6.01458 9.97499 4.71624 10.7797 4.01845 11.9791C4.97952 12.7272 6.18765 13.1727 7.49985 13.1727C8.81227 13.1727 10.0206 12.727 10.9818 11.9787ZM5.14999 6.50487C5.14999 5.207 6.20212 4.15487 7.49999 4.15487C8.79786 4.15487 9.84999 5.207 9.84999 6.50487C9.84999 7.80274 8.79786 8.85487 7.49999 8.85487C6.20212 8.85487 5.14999 7.80274 5.14999 6.50487ZM7.49999 5.10487C6.72679 5.10487 6.09999 5.73167 6.09999 6.50487C6.09999 7.27807 6.72679 7.90487 7.49999 7.90487C8.27319 7.90487 8.89999 7.27807 8.89999 6.50487C8.89999 5.73167 8.27319 5.10487 7.49999 5.10487Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

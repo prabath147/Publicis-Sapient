@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`optinList should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="mantine-8od8ev"
+    style="height: 80%;"
+  >
+    <svg
+      class="mantine-1avyp1d"
+      data-testid="Loading"
+      height="36px"
+      role="presentation"
+      stroke="#228be6"
+      viewBox="0 0 38 38"
+      width="36px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fill-rule="evenodd"
+      >
+        <g
+          stroke-width="5"
+          transform="translate(2.5 2.5)"
+        >
+          <circle
+            cx="16"
+            cy="16"
+            r="16"
+            stroke-opacity=".5"
+          />
+          <path
+            d="M32 16c0-9.94-8.06-16-16-16"
+          >
+            <animatetransform
+              attributeName="transform"
+              dur="1s"
+              from="0 16 16"
+              repeatCount="indefinite"
+              to="360 16 16"
+              type="rotate"
+            />
+          </path>
+        </g>
+      </g>
+    </svg>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`optinList should render with data 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mantine-Container-root mantine-15pjuqq"
+    >
+      <h1
+        class="mantine-Text-root mantine-Title-root mantine-1l71p2l"
+      >
+        Opt In List
+      </h1>
+      <br />
+      <div
+        class="mantine-1avyp1d"
+        data-accordion="true"
+      >
+        <div
+          class="mantine-Accordion-item mantine-oomffu"
+        >
+          <button
+            aria-controls="mantine-r0-panel-2"
+            aria-expanded="false"
+            class="mantine-UnstyledButton-root mantine-Accordion-control mantine-xizyzk"
+            data-accordion-control="true"
+            id="mantine-r0-control-2"
+            type="button"
+          >
+            <div
+              class="mantine-1h6pkea mantine-Accordion-chevron"
+            >
+              <svg
+                fill="none"
+                height="16"
+                viewBox="0 0 15 15"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div
+              class="mantine-pildck mantine-Accordion-label"
+            >
+              <div
+                class="mantine-Group-root mantine-qvrn7b"
+              >
+                <h1
+                  class="mantine-Text-root mantine-Title-root mantine-Group-child mantine-c374lq"
+                >
+                  fever
+                </h1>
+                <div
+                  class="mantine-Text-root mantine-Group-child mantine-1wsjsij"
+                >
+                  Next: Sat Jan 04 2020 05:30:00 GMT+0530 (India Standard Time)
+                </div>
+              </div>
+            </div>
+            <div
+              class="mantine-r9y4tq mantine-Accordion-icon"
+            >
+              <svg
+                class="icon icon-tabler icon-tabler-pill"
+                fill="none"
+                height="20"
+                stroke="green"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                  stroke="none"
+                />
+                <path
+                  d="M4.5 12.5l8 -8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1 -7 -7"
+                />
+                <line
+                  x1="8.5"
+                  x2="15.5"
+                  y1="8.5"
+                  y2="15.5"
+                />
+              </svg>
+            </div>
+          </button>
+          <div
+            aria-hidden="true"
+            aria-labelledby="mantine-r0-control-2"
+            class="mantine-Accordion-panel mantine-1supnlp"
+            id="mantine-r0-panel-2"
+            role="region"
+            style="box-sizing: border-box; display: none; height: 0px; overflow: hidden;"
+          >
+            <div
+              style="opacity: 0; transition: opacity 200ms ease;"
+            >
+              <div
+                class="mantine-ukbbnm mantine-Accordion-content"
+              >
+                <div
+                  class="mantine-Group-root mantine-147cgkf"
+                >
+                  <a
+                    class="mantine-gnzaph mantine-Group-child"
+                    href="/optin/update/2"
+                  >
+                    <svg
+                      class="icon icon-tabler icon-tabler-edit"
+                      fill="none"
+                      height="24"
+                      stroke="green"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                        stroke="none"
+                      />
+                      <path
+                        d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1"
+                      />
+                      <path
+                        d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z"
+                      />
+                      <path
+                        d="M16 5l3 3"
+                      />
+                    </svg>
+                  </a>
+                  <button
+                    class="mantine-UnstyledButton-root mantine-Group-child mantine-14e47jh"
+                    type="button"
+                  >
+                    <svg
+                      class="icon icon-tabler icon-tabler-trash"
+                      fill="none"
+                      height="24"
+                      stroke="red"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                        stroke="none"
+                      />
+                      <line
+                        x1="4"
+                        x2="20"
+                        y1="7"
+                        y2="7"
+                      />
+                      <line
+                        x1="10"
+                        x2="10"
+                        y1="11"
+                        y2="17"
+                      />
+                      <line
+                        x1="14"
+                        x2="14"
+                        y1="11"
+                        y2="17"
+                      />
+                      <path
+                        d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"
+                      />
+                      <path
+                        d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div
+                  class="mantine-Grid-root mantine-nsdj"
+                >
+                  <div
+                    class="mantine-Col-root mantine-ue7w1"
+                  >
+                    Id
+                  </div>
+                  <div
+                    class="mantine-Col-root mantine-194xbhl"
+                  >
+                    2
+                  </div>
+                  <div
+                    class="mantine-Col-root mantine-ue7w1"
+                  >
+                    Name
+                  </div>
+                  <div
+                    class="mantine-Col-root mantine-194xbhl"
+                  >
+                    fever
+                  </div>
+                  <div
+                    class="mantine-Col-root mantine-ue7w1"
+                  >
+                    Delivery Intervals
+                  </div>
+                  <div
+                    class="mantine-Col-root mantine-194xbhl"
+                  >
+                    2 days
+                  </div>
+                  <div
+                    class="mantine-Col-root mantine-ue7w1"
+                  >
+                    Next Delivery
+                  </div>
+                  <div
+                    class="mantine-Col-root mantine-194xbhl"
+                  >
+                    Sat Jan 04 2020 05:30:00 GMT+0530 (India Standard Time) 
+                  </div>
+                  <div
+                    class="mantine-Col-root mantine-ue7w1"
+                  >
+                    Deliveries Left
+                  </div>
+                  <div
+                    class="mantine-Col-root mantine-194xbhl"
+                  >
+                    3
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mantine-1eabysl"
+      />
+      <div
+        class="mantine-Group-root mantine-1q3od06"
+        role="navigation"
+      >
+        <button
+          aria-disabled="true"
+          class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+          disabled=""
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <button
+          aria-disabled="false"
+          class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

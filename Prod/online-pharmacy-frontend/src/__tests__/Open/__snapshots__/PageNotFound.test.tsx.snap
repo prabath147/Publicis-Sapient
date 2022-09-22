@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component created 1`] = `
+<div
+  className="mantine-Container-root mantine-15pjuqq"
+>
+  <div
+    className="mantine-Image-root animate__animated animate__tada mantine-15po0m8"
+    style={
+      Object {
+        "height": "auto",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "width": 350,
+      }
+    }
+  >
+    <figure
+      className="mantine-11nhzn5 mantine-Image-figure"
+    >
+      <div
+        className="mantine-qqmv3w mantine-Image-imageWrapper"
+      >
+        <img
+          className="mantine-3y8yz3 mantine-Image-image"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="404-error-image.jpg"
+          style={
+            Object {
+              "height": "auto",
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </figure>
+  </div>
+  <div
+    className="mantine-Group-root mantine-1u7f61y"
+  >
+    <a
+      className="mantine-gnzaph mantine-Group-child"
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="mantine-UnstyledButton-root mantine-Button-root mantine-l8qp3y"
+        data-button={true}
+        type="button"
+      >
+        <div
+          className="mantine-3xbgk5 mantine-Button-inner"
+        >
+          <span
+            className="mantine-qo1k2 mantine-Button-label"
+            style={
+              Object {
+                "textTransform": undefined,
+              }
+            }
+          >
+            Take me back to home page
+          </span>
+        </div>
+      </button>
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,44 @@
+# @format
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    labels:
+        app: admin-service
+    name: admin-service
+spec:
+    replicas: 4
+    selector:
+        matchLabels:
+            app: admin-service
+    template:
+        metadata:
+            labels:
+                app: admin-service
+        spec:
+            containers:
+                - name: admin-service
+                  image: 832215930943.dkr.ecr.us-east-1.amazonaws.com/admin-service:latest
+                  imagePullPolicy: Always
+                  ports:
+                      - containerPort: 8084
+                        name: http
+                        protocol: TCP
+# service type loadbalancer
+---
+apiVersion: v1
+kind: Service
+metadata:
+    labels:
+        app: admin-service
+        k8s-app: admin-service
+    name: admin-service
+spec:
+    ports:
+        - name: http
+          port: 80
+          protocol: TCP
+          targetPort: 8084
+    type: LoadBalancer
+    selector:
+        app: admin-service

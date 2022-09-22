@@ -1,0 +1,1156 @@
+{
+	"info": {
+		"_postman_id": "2006e6c9-1dd9-4ca9-a9fd-473987855a5f",
+		"name": "pharmacy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "pharmacy - service",
+			"item": [
+				{
+					"name": "create manager- pharmacy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjEiLCJpYXQiOjE2NjIwMjY1MzQsImV4cCI6MTY2MjAzMDEzNCwicm9sZSI6IlJPTEVfQURNSU4ifQ.3wrbR45JuxjCpUWWp4VtqCYmJVSYLm1mrFtbu1sVuu9-uNoMLiyR3MnNSf23g5oc2JfYhtj9KC5qVnI6vbjooA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"kane1\",\r\n    \"phoneNo\":\"1234567890\",\r\n    \"licenseNo\":\"7891\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/manager/create-manager/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"manager",
+								"create-manager",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "pending requests - pharmacy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE3NDkxMTAsImV4cCI6MTY2MTgzNTUxMCwicm9sZSI6IlJPTEVfQURNSU4ifQ.RWjCIDCGkZXjJG-OKaPj4QDsm4BR_J5ynMnt-Jd8pHtlzSa72LPkOTYsvM4rLucSx8V8x1BzaCL5vmTet6cg4A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/manager/get-manager/pending?pageNumber=0&pageSize=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"manager",
+								"get-manager",
+								"pending"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager approval - pharmacy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE3NDkxMTAsImV4cCI6MTY2MTgzNTUxMCwicm9sZSI6IlJPTEVfQURNSU4ifQ.RWjCIDCGkZXjJG-OKaPj4QDsm4BR_J5ynMnt-Jd8pHtlzSa72LPkOTYsvM4rLucSx8V8x1BzaCL5vmTet6cg4A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/manager/approval/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"manager",
+								"approval",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get manager - pharmacy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjEiLCJpYXQiOjE2NjIwMjY1MzQsImV4cCI6MTY2MjAzMDEzNCwicm9sZSI6IlJPTEVfQURNSU4ifQ.3wrbR45JuxjCpUWWp4VtqCYmJVSYLm1mrFtbu1sVuu9-uNoMLiyR3MnNSf23g5oc2JfYhtj9KC5qVnI6vbjooA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/manager/get-manager?pageNumber=0&pageSize=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"manager",
+								"get-manager"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create catgeory - pharmacy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE3NDkxMTAsImV4cCI6MTY2MTgzNTUxMCwicm9sZSI6IlJPTEVfQURNSU4ifQ.RWjCIDCGkZXjJG-OKaPj4QDsm4BR_J5ynMnt-Jd8pHtlzSa72LPkOTYsvM4rLucSx8V8x1BzaCL5vmTet6cg4A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoryName\":\"c1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/category/create-category",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"category",
+								"create-category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get store - pharmacy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjEiLCJpYXQiOjE2NjIwMjQzMDYsImV4cCI6MTY2MjExMDcwNiwicm9sZSI6IlJPTEVfQURNSU4ifQ.QmJPk-EY8b8PxGT9qKkvx69qQjSwSs3qYWI7AImR8wcmmUyaiAYq3lzK_8jdGENar_iXU2sWskLHsV1U9Npzrw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/store/get-store",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"store",
+								"get-store"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete store - pharmacy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/store/delete-store/83",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"store",
+								"delete-store",
+								"83"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get products - pharmacy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/product/get-product?pageNumber=1&pageSize=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"product",
+								"get-product"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create product - pharmacy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE3NDkxMTAsImV4cCI6MTY2MTgzNTUxMCwicm9sZSI6IlJPTEVfQURNSU4ifQ.RWjCIDCGkZXjJG-OKaPj4QDsm4BR_J5ynMnt-Jd8pHtlzSa72LPkOTYsvM4rLucSx8V8x1BzaCL5vmTet6cg4A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"productId\":19,\r\n    \"proprietaryName\":\"p1\",\r\n    \"productName\":\"pd7\",\r\n    \"description\":\"pd1\",\r\n    \"dosageForm\":\"500\",\r\n    \"categoryName\":\"c1\",\r\n    \"quantity\":100,\r\n    \"imageUrl\":\"pd1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/product/create-product",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"product",
+								"create-product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get products - pharmacy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/category//get-category?pageNumber=1&pageSize=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"category",
+								"",
+								"get-category"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete products - pharmacy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/admin/product/9/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"admin",
+								"product",
+								"9",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get items by pid - pharmacy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE3NDI3MzAsImV4cCI6MTY2MTgyOTEzMCwicm9sZSI6IlJPTEVfQURNSU4ifQ.aZla9VCnXfkMpatdqJ1uw7YRppbsgruynmYPdjxm9Y3U3ouaPl5BzjKEyLNFDd7_hKVpvdA1mH2wlsDSOnLA0Q",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/item/get-item-by-productid/11?pageNumber=0&pageSize=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"item",
+								"get-item-by-productid",
+								"11"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get item by id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE3NDc1NjgsImV4cCI6MTY2MTgzMzk2OCwicm9sZSI6IlJPTEVfQURNSU4ifQ.qi1gasSJfkaJVPPCAv9B7m4kYvgk553B9URhOEJz9E6Ipbpn33lics3N4GrG85uxyJUw5kvtTBNPsXndTAoqTA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/item/get-item/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"item",
+								"get-item",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reject manager",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE3NDkxMTAsImV4cCI6MTY2MTgzNTUxMCwicm9sZSI6IlJPTEVfQURNSU4ifQ.RWjCIDCGkZXjJG-OKaPj4QDsm4BR_J5ynMnt-Jd8pHtlzSa72LPkOTYsvM4rLucSx8V8x1BzaCL5vmTet6cg4A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/manager/rejection/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"manager",
+								"rejection",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create store",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE3NDkxMTAsImV4cCI6MTY2MTgzNTUxMCwicm9sZSI6IlJPTEVfQURNSU4ifQ.RWjCIDCGkZXjJG-OKaPj4QDsm4BR_J5ynMnt-Jd8pHtlzSa72LPkOTYsvM4rLucSx8V8x1BzaCL5vmTet6cg4A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"storeName\":\"store1\",\r\n    \"address\": {\r\n        \"street\": \"street1\",\r\n        \"city\": \"city1\",\r\n        \"state\": \"state1\",\r\n        \"pinCode\": \"123456\",\r\n        \"country\": \"country1\"\r\n    },\r\n    \"createdDate\":\"2022-08-28T18:30:00.000+00:00\",\r\n    \"manager\":{\r\n        \"managerId\":5\r\n    },\r\n    \"revenue\":1000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/store/create-store",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"store",
+								"create-store"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create item",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "get items",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE3NDkxMTAsImV4cCI6MTY2MTgzNTUxMCwicm9sZSI6IlJPTEVfQURNSU4ifQ.RWjCIDCGkZXjJG-OKaPj4QDsm4BR_J5ynMnt-Jd8pHtlzSa72LPkOTYsvM4rLucSx8V8x1BzaCL5vmTet6cg4A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/item/get-item",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"item",
+								"get-item"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "buy-cart",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjEiLCJpYXQiOjE2NjIwMTUxMTQsImV4cCI6MTY2MjEwMTUxNCwicm9sZSI6IlJPTEVfQURNSU4ifQ.fxdgb6yzBSIH3Bsj9-7q0hsKKdr1AVLrrl9P6NKL8_5kE5CAhSZDtIiJ2itPS52L1YHDehouf7B3DhUXFKIVUQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cartId\":1,\r\n      \"items\": [\r\n        {\r\n                \"itemId\":2,\r\n                \"itemIdFk\": 8,\r\n                \"itemQuantity\": 10,\r\n                \"price\": 10.0\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/store/buy-cart",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"store",
+								"buy-cart"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get manager with filter",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjEiLCJpYXQiOjE2NjIwOTQ4ODAsImV4cCI6MTY2MjA5ODQ4MCwicm9sZSI6IlJPTEVfQURNSU4ifQ.fo5Klx7pnPqGss3KeJ55ahEeXLcExkbxCScg8wcIv0ZzZfdQB9J-eND2aRes4bc03JoNqFH4y4pxwM3IRRMFlQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/pharmacy/manager/get-manager-with-filter?status=PENDING&sortBy=name&pageNumber=0&pageSize=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"pharmacy",
+								"manager",
+								"get-manager-with-filter"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "PENDING"
+								},
+								{
+									"key": "sortBy",
+									"value": "name"
+								},
+								{
+									"key": "pageNumber",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin - service",
+			"item": [
+				{
+					"name": "get store - admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/admin/store",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"admin",
+								"store"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get products - admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/admin/product/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"admin",
+								"product",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "pending requests - admin",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "user",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "user",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/admin/manager/pending-request?pageNumber=0&pageSize=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"admin",
+								"manager",
+								"pending-request"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "0"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager rejection - admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/admin/manager/reject/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"admin",
+								"manager",
+								"reject",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get managers - admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/admin/manager/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"admin",
+								"manager",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get manager - admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/admin/manager/22",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"admin",
+								"manager",
+								"22"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager approval - admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/admin/manager/approve/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"admin",
+								"manager",
+								"approve",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get product - admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8084/admin/product/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"admin",
+								"product",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create product - admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"productId\":12,\r\n    \"proprietaryName\":\"p1\",\r\n    \"productName\":\"pd1\",\r\n    \"description\":\"pd1\",\r\n    \"dosageForm\":\"500\",\r\n    \"categoryName\":\"c4\",\r\n    \"quantity\":1,\r\n    \"imageUrl\":\"pd1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8084/admin/product/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"admin",
+								"product",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get manager with filter",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "order - service",
+			"item": [
+				{
+					"name": "create optin - order ",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE4MzYyMzUsImV4cCI6MTY2MTkyMjYzNSwicm9sZSI6IlJPTEVfQURNSU4ifQ.h7tVPeVIUvlVb4AHb9aNuV3CuqMyYBe5Xpi1QpPA5MVDRkvV4AjI4rrhxkI25NggoJw8Ex63BWKY3THfOQ98WQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"userId\": 19,\r\n    \"name\": \"opt in 5\",\r\n    \"numberOfDeliveries\": 2,\r\n    \"intervalInDays\": 30,\r\n    \"deliveryDate\": \"2022-09-15\",\r\n    \"address\": {\r\n        \r\n        \"street\": \"street1\",\r\n        \"city\": \"city1\",\r\n        \"state\": \"state1\",\r\n        \"pinCode\": \"123456\",\r\n        \"country\": \"country1\"\r\n    },\r\n    \"repeatOrderItems\": [\r\n        {\r\n            \"product\": {\r\n                \"productIdFk\": 6,\r\n                \"quantity\": 10,\r\n                \"price\": 300.0\r\n            },\r\n            \"quantity\":1\r\n        }\r\n        \r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8083/order/optin/create-optin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"order",
+								"optin",
+								"create-optin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update optin",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE4MzYyMzUsImV4cCI6MTY2MTkyMjYzNSwicm9sZSI6IlJPTEVfQURNSU4ifQ.h7tVPeVIUvlVb4AHb9aNuV3CuqMyYBe5Xpi1QpPA5MVDRkvV4AjI4rrhxkI25NggoJw8Ex63BWKY3THfOQ98WQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 502,\r\n    \"userId\": 18,\r\n    \"name\": \"opt in 4\",\r\n    \"numberOfDeliveries\": 2,\r\n    \"intervalInDays\": 30,\r\n    \"deliveryDate\": \"2022-09-15\",\r\n    \"address\": {\r\n        \"addressId\": 552,\r\n        \"street\": \"street1\",\r\n        \"city\": \"city1\",\r\n        \"state\": \"state1\",\r\n        \"pinCode\": \"123456\",\r\n        \"country\": \"country1\"\r\n    },\r\n    \"repeatOrderItems\": [\r\n        {\r\n            \"id\": 602,\r\n            \"product\": {\r\n                \"productId\": 14,\r\n                \"productIdFk\": 6,\r\n                \"quantity\": 10,\r\n                \"price\": 300.0\r\n            },\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8083/order/optin/update-optin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"order",
+								"optin",
+								"update-optin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "place order - order",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjEiLCJpYXQiOjE2NjIwMTUxMTQsImV4cCI6MTY2MjEwMTUxNCwicm9sZSI6IlJPTEVfQURNSU4ifQ.fxdgb6yzBSIH3Bsj9-7q0hsKKdr1AVLrrl9P6NKL8_5kE5CAhSZDtIiJ2itPS52L1YHDehouf7B3DhUXFKIVUQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8083/order/optin/place-order/106",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"order",
+								"optin",
+								"place-order",
+								"106"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get optin",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjEiLCJpYXQiOjE2NjIwMzc2MjgsImV4cCI6MTY2MjA0MTIyOCwicm9sZSI6IlJPTEVfQURNSU4ifQ.pZbWKdXdmMR_1ejV1Nh6NDl4xCw2kAJ56tSuCbaDSLNkG3ya0jbyKxc1y2FoayyRbfq4sSEH9QMQswKZ_N1Rxg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8083/order/optin/102?id=102",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"order",
+								"optin",
+								"102"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "102"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get optin by user id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbmtpdDEiLCJpYXQiOjE2NjE3NDkxMTAsImV4cCI6MTY2MTgzNTUxMCwicm9sZSI6IlJPTEVfQURNSU4ifQ.RWjCIDCGkZXjJG-OKaPj4QDsm4BR_J5ynMnt-Jd8pHtlzSa72LPkOTYsvM4rLucSx8V8x1BzaCL5vmTet6cg4A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8083/order/optin/user/2?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"order",
+								"optin",
+								"user",
+								"2"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "auth - service",
+			"item": [
+				{
+					"name": "signin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"admin1\",\r\n    \"password\":\"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/api/auth/signin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"admin\",\r\n    \"email\":\"admin12@gmail.com\",\r\n    \"role\":[\r\n            \"ROLE_ADMIN\"\r\n    ],\r\n    \"password\":\"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/api/auth/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

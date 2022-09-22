@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component created 1`] = `
+<div
+  className="mantine-Container-root mantine-15pjuqq"
+>
+  <br />
+  <br />
+  <h1>
+    Not Allowed
+  </h1>
+  <br />
+  <h3>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Go to Home
+    </a>
+  </h3>
+</div>
+`;

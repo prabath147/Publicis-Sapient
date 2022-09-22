@@ -1,0 +1,2404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManagerList component created with fail event 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mantine-Paper-root mantine-Card-root mantine-ergsfy"
+    >
+      <div
+        class="mantine-Container-root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-Switch-root mantine-16ttirm"
+        >
+          <label
+            class="mantine-17do188 mantine-Switch-body"
+            for="mantine-r0"
+          >
+            <input
+              class="mantine-rpvocz mantine-Switch-input"
+              data-testid="pending-switch"
+              id="mantine-r0"
+              type="checkbox"
+            />
+            <div
+              class="mantine-5cv6k4 mantine-Switch-track"
+            >
+              <div
+                class="mantine-11dx59s mantine-Switch-thumb"
+              />
+              <div
+                class="mantine-69c9zd mantine-Switch-trackLabel"
+              />
+            </div>
+            <div
+              class="mantine-77b9op mantine-Switch-label"
+              data-testid="label"
+            >
+              Pending
+            </div>
+          </label>
+        </div>
+        <div
+          style="float: right;"
+        >
+          <div
+            class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+            >
+              <input
+                aria-invalid="false"
+                class="mantine-Input-input mantine-TextInput-input mantine-hxyb6n"
+                id="mantine-r1"
+                placeholder="name"
+                type="text"
+              />
+              <div
+                class="mantine-1n9cu5e mantine-Input-rightSection mantine-TextInput-rightSection"
+              >
+                <button
+                  class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-1lgihd9"
+                  type="button"
+                >
+                  <svg
+                    class="icon icon-tabler icon-tabler-search"
+                    fill="none"
+                    height="18"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="7"
+                    />
+                    <line
+                      x1="21"
+                      x2="15"
+                      y1="21"
+                      y2="15"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-InputWrapper-root mantine-Select-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              aria-controls="mantine-r2"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              class=""
+              role="combobox"
+              tabindex="-1"
+            >
+              <input
+                type="hidden"
+                value=""
+              />
+              <div
+                class="mantine-Input-wrapper mantine-Select-wrapper mantine-12sbrde"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-invalid="false"
+                  autocomplete="off"
+                  class="mantine-Input-input mantine-Select-input mantine-1ajyf09"
+                  data-mantine-stop-propagation="false"
+                  id="mantine-r2"
+                  placeholder="select filter"
+                  readonly=""
+                  type="search"
+                  value=""
+                />
+                <div
+                  class="mantine-uquezq mantine-Input-rightSection mantine-Select-rightSection"
+                >
+                  <svg
+                    data-chevron="true"
+                    fill="none"
+                    height="18"
+                    style="color: rgb(134, 142, 150);"
+                    viewBox="0 0 15 15"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <table
+          class="mantine-Table-root mantine-b146xb"
+          data-hover="true"
+        >
+          <thead>
+            <tr>
+              <th>
+                Manager id
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Phone No
+              </th>
+              <th>
+                Registration Date
+              </th>
+              <th>
+                license No
+              </th>
+              <th>
+                Status
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+        <div
+          class="mantine-Group-root mantine-1q3od06"
+          role="navigation"
+        >
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            aria-current="page"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            data-active="true"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ManagerList component created with pending managers and approve 1 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mantine-Paper-root mantine-Card-root mantine-ergsfy"
+    >
+      <div
+        class="mantine-Container-root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-Switch-root mantine-16ttirm"
+        >
+          <label
+            class="mantine-17do188 mantine-Switch-body"
+            for="mantine-r8"
+          >
+            <input
+              class="mantine-rpvocz mantine-Switch-input"
+              data-testid="pending-switch"
+              id="mantine-r8"
+              type="checkbox"
+            />
+            <div
+              class="mantine-5cv6k4 mantine-Switch-track"
+            >
+              <div
+                class="mantine-11dx59s mantine-Switch-thumb"
+              />
+              <div
+                class="mantine-69c9zd mantine-Switch-trackLabel"
+              />
+            </div>
+            <div
+              class="mantine-77b9op mantine-Switch-label"
+              data-testid="label"
+            >
+              Pending
+            </div>
+          </label>
+        </div>
+        <div
+          style="float: right;"
+        >
+          <div
+            class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+            >
+              <input
+                aria-invalid="false"
+                class="mantine-Input-input mantine-TextInput-input mantine-hxyb6n"
+                id="mantine-r9"
+                placeholder="name"
+                type="text"
+              />
+              <div
+                class="mantine-1n9cu5e mantine-Input-rightSection mantine-TextInput-rightSection"
+              >
+                <button
+                  class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-1lgihd9"
+                  type="button"
+                >
+                  <svg
+                    class="icon icon-tabler icon-tabler-search"
+                    fill="none"
+                    height="18"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="7"
+                    />
+                    <line
+                      x1="21"
+                      x2="15"
+                      y1="21"
+                      y2="15"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-InputWrapper-root mantine-Select-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              aria-controls="mantine-ra"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              class=""
+              role="combobox"
+              tabindex="-1"
+            >
+              <input
+                type="hidden"
+                value=""
+              />
+              <div
+                class="mantine-Input-wrapper mantine-Select-wrapper mantine-12sbrde"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-invalid="false"
+                  autocomplete="off"
+                  class="mantine-Input-input mantine-Select-input mantine-1ajyf09"
+                  data-mantine-stop-propagation="false"
+                  id="mantine-ra"
+                  placeholder="select filter"
+                  readonly=""
+                  type="search"
+                  value=""
+                />
+                <div
+                  class="mantine-uquezq mantine-Input-rightSection mantine-Select-rightSection"
+                >
+                  <svg
+                    data-chevron="true"
+                    fill="none"
+                    height="18"
+                    style="color: rgb(134, 142, 150);"
+                    viewBox="0 0 15 15"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <table
+          class="mantine-Table-root mantine-b146xb"
+          data-hover="true"
+        >
+          <thead>
+            <tr>
+              <th>
+                Manager id
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Phone No
+              </th>
+              <th>
+                Registration Date
+              </th>
+              <th>
+                license No
+              </th>
+              <th>
+                Status
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                1
+              </td>
+              <td>
+                John
+              </td>
+              <td>
+                1234567890
+              </td>
+              <td />
+              <td>
+                1889299
+              </td>
+              <td>
+                <div
+                  class="mantine-Badge-root mantine-wwgmak"
+                >
+                  <span
+                    class="mantine-h9iq4m mantine-Badge-inner"
+                  >
+                    PENDING
+                  </span>
+                </div>
+              </td>
+              <td>
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-1sy6mp7"
+                  data-button="true"
+                  data-testid="manager-approve-1"
+                  name="APPROVED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Approve
+                    </span>
+                  </div>
+                </button>
+                 
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-ofjsjw"
+                  data-button="true"
+                  data-testid="manager-reject-1"
+                  name="REJECTED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Reject
+                    </span>
+                  </div>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="mantine-Group-root mantine-1q3od06"
+          role="navigation"
+        >
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            aria-current="page"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            data-active="true"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ManagerList component created with pending managers and approve 1 2`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mantine-Paper-root mantine-Card-root mantine-ergsfy"
+    >
+      <div
+        class="mantine-Container-root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-Switch-root mantine-16ttirm"
+        >
+          <label
+            class="mantine-17do188 mantine-Switch-body"
+            for="mantine-r8"
+          >
+            <input
+              class="mantine-rpvocz mantine-Switch-input"
+              data-testid="pending-switch"
+              id="mantine-r8"
+              type="checkbox"
+            />
+            <div
+              class="mantine-5cv6k4 mantine-Switch-track"
+            >
+              <div
+                class="mantine-11dx59s mantine-Switch-thumb"
+              />
+              <div
+                class="mantine-69c9zd mantine-Switch-trackLabel"
+              />
+            </div>
+            <div
+              class="mantine-77b9op mantine-Switch-label"
+              data-testid="label"
+            >
+              Pending
+            </div>
+          </label>
+        </div>
+        <div
+          style="float: right;"
+        >
+          <div
+            class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+            >
+              <input
+                aria-invalid="false"
+                class="mantine-Input-input mantine-TextInput-input mantine-hxyb6n"
+                id="mantine-r9"
+                placeholder="name"
+                type="text"
+              />
+              <div
+                class="mantine-1n9cu5e mantine-Input-rightSection mantine-TextInput-rightSection"
+              >
+                <button
+                  class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-1lgihd9"
+                  type="button"
+                >
+                  <svg
+                    class="icon icon-tabler icon-tabler-search"
+                    fill="none"
+                    height="18"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="7"
+                    />
+                    <line
+                      x1="21"
+                      x2="15"
+                      y1="21"
+                      y2="15"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-InputWrapper-root mantine-Select-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              aria-controls="mantine-ra"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              class=""
+              role="combobox"
+              tabindex="-1"
+            >
+              <input
+                type="hidden"
+                value=""
+              />
+              <div
+                class="mantine-Input-wrapper mantine-Select-wrapper mantine-12sbrde"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-invalid="false"
+                  autocomplete="off"
+                  class="mantine-Input-input mantine-Select-input mantine-1ajyf09"
+                  data-mantine-stop-propagation="false"
+                  id="mantine-ra"
+                  placeholder="select filter"
+                  readonly=""
+                  type="search"
+                  value=""
+                />
+                <div
+                  class="mantine-uquezq mantine-Input-rightSection mantine-Select-rightSection"
+                >
+                  <svg
+                    data-chevron="true"
+                    fill="none"
+                    height="18"
+                    style="color: rgb(134, 142, 150);"
+                    viewBox="0 0 15 15"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <table
+          class="mantine-Table-root mantine-b146xb"
+          data-hover="true"
+        >
+          <thead>
+            <tr>
+              <th>
+                Manager id
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Phone No
+              </th>
+              <th>
+                Registration Date
+              </th>
+              <th>
+                license No
+              </th>
+              <th>
+                Status
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                1
+              </td>
+              <td>
+                John
+              </td>
+              <td>
+                1234567890
+              </td>
+              <td />
+              <td>
+                1889299
+              </td>
+              <td>
+                <div
+                  class="mantine-Badge-root mantine-wwgmak"
+                >
+                  <span
+                    class="mantine-h9iq4m mantine-Badge-inner"
+                  >
+                    PENDING
+                  </span>
+                </div>
+              </td>
+              <td>
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-1sy6mp7"
+                  data-button="true"
+                  data-testid="manager-approve-1"
+                  name="APPROVED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Approve
+                    </span>
+                  </div>
+                </button>
+                 
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-ofjsjw"
+                  data-button="true"
+                  data-testid="manager-reject-1"
+                  name="REJECTED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Reject
+                    </span>
+                  </div>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="mantine-Group-root mantine-1q3od06"
+          role="navigation"
+        >
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            aria-current="page"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            data-active="true"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ManagerList component created with pending managers and approve 1 and fail 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mantine-Paper-root mantine-Card-root mantine-ergsfy"
+    >
+      <div
+        class="mantine-Container-root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-Switch-root mantine-16ttirm"
+        >
+          <label
+            class="mantine-17do188 mantine-Switch-body"
+            for="mantine-rg"
+          >
+            <input
+              class="mantine-rpvocz mantine-Switch-input"
+              data-testid="pending-switch"
+              id="mantine-rg"
+              type="checkbox"
+            />
+            <div
+              class="mantine-5cv6k4 mantine-Switch-track"
+            >
+              <div
+                class="mantine-11dx59s mantine-Switch-thumb"
+              />
+              <div
+                class="mantine-69c9zd mantine-Switch-trackLabel"
+              />
+            </div>
+            <div
+              class="mantine-77b9op mantine-Switch-label"
+              data-testid="label"
+            >
+              Pending
+            </div>
+          </label>
+        </div>
+        <div
+          style="float: right;"
+        >
+          <div
+            class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+            >
+              <input
+                aria-invalid="false"
+                class="mantine-Input-input mantine-TextInput-input mantine-hxyb6n"
+                id="mantine-rh"
+                placeholder="name"
+                type="text"
+              />
+              <div
+                class="mantine-1n9cu5e mantine-Input-rightSection mantine-TextInput-rightSection"
+              >
+                <button
+                  class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-1lgihd9"
+                  type="button"
+                >
+                  <svg
+                    class="icon icon-tabler icon-tabler-search"
+                    fill="none"
+                    height="18"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="7"
+                    />
+                    <line
+                      x1="21"
+                      x2="15"
+                      y1="21"
+                      y2="15"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-InputWrapper-root mantine-Select-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              aria-controls="mantine-ri"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              class=""
+              role="combobox"
+              tabindex="-1"
+            >
+              <input
+                type="hidden"
+                value=""
+              />
+              <div
+                class="mantine-Input-wrapper mantine-Select-wrapper mantine-12sbrde"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-invalid="false"
+                  autocomplete="off"
+                  class="mantine-Input-input mantine-Select-input mantine-1ajyf09"
+                  data-mantine-stop-propagation="false"
+                  id="mantine-ri"
+                  placeholder="select filter"
+                  readonly=""
+                  type="search"
+                  value=""
+                />
+                <div
+                  class="mantine-uquezq mantine-Input-rightSection mantine-Select-rightSection"
+                >
+                  <svg
+                    data-chevron="true"
+                    fill="none"
+                    height="18"
+                    style="color: rgb(134, 142, 150);"
+                    viewBox="0 0 15 15"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <table
+          class="mantine-Table-root mantine-b146xb"
+          data-hover="true"
+        >
+          <thead>
+            <tr>
+              <th>
+                Manager id
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Phone No
+              </th>
+              <th>
+                Registration Date
+              </th>
+              <th>
+                license No
+              </th>
+              <th>
+                Status
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                1
+              </td>
+              <td>
+                John
+              </td>
+              <td>
+                1234567890
+              </td>
+              <td />
+              <td>
+                1889299
+              </td>
+              <td>
+                <div
+                  class="mantine-Badge-root mantine-wwgmak"
+                >
+                  <span
+                    class="mantine-h9iq4m mantine-Badge-inner"
+                  >
+                    PENDING
+                  </span>
+                </div>
+              </td>
+              <td>
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-1sy6mp7"
+                  data-button="true"
+                  data-testid="manager-approve-1"
+                  name="APPROVED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Approve
+                    </span>
+                  </div>
+                </button>
+                 
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-ofjsjw"
+                  data-button="true"
+                  data-testid="manager-reject-1"
+                  name="REJECTED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Reject
+                    </span>
+                  </div>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="mantine-Group-root mantine-1q3od06"
+          role="navigation"
+        >
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            aria-current="page"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            data-active="true"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ManagerList component created with pending managers and approve 1 and fail 2`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mantine-Paper-root mantine-Card-root mantine-ergsfy"
+    >
+      <div
+        class="mantine-Container-root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-Switch-root mantine-16ttirm"
+        >
+          <label
+            class="mantine-17do188 mantine-Switch-body"
+            for="mantine-rg"
+          >
+            <input
+              class="mantine-rpvocz mantine-Switch-input"
+              data-testid="pending-switch"
+              id="mantine-rg"
+              type="checkbox"
+            />
+            <div
+              class="mantine-5cv6k4 mantine-Switch-track"
+            >
+              <div
+                class="mantine-11dx59s mantine-Switch-thumb"
+              />
+              <div
+                class="mantine-69c9zd mantine-Switch-trackLabel"
+              />
+            </div>
+            <div
+              class="mantine-77b9op mantine-Switch-label"
+              data-testid="label"
+            >
+              Pending
+            </div>
+          </label>
+        </div>
+        <div
+          style="float: right;"
+        >
+          <div
+            class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+            >
+              <input
+                aria-invalid="false"
+                class="mantine-Input-input mantine-TextInput-input mantine-hxyb6n"
+                id="mantine-rh"
+                placeholder="name"
+                type="text"
+              />
+              <div
+                class="mantine-1n9cu5e mantine-Input-rightSection mantine-TextInput-rightSection"
+              >
+                <button
+                  class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-1lgihd9"
+                  type="button"
+                >
+                  <svg
+                    class="icon icon-tabler icon-tabler-search"
+                    fill="none"
+                    height="18"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="7"
+                    />
+                    <line
+                      x1="21"
+                      x2="15"
+                      y1="21"
+                      y2="15"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-InputWrapper-root mantine-Select-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              aria-controls="mantine-ri"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              class=""
+              role="combobox"
+              tabindex="-1"
+            >
+              <input
+                type="hidden"
+                value=""
+              />
+              <div
+                class="mantine-Input-wrapper mantine-Select-wrapper mantine-12sbrde"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-invalid="false"
+                  autocomplete="off"
+                  class="mantine-Input-input mantine-Select-input mantine-1ajyf09"
+                  data-mantine-stop-propagation="false"
+                  id="mantine-ri"
+                  placeholder="select filter"
+                  readonly=""
+                  type="search"
+                  value=""
+                />
+                <div
+                  class="mantine-uquezq mantine-Input-rightSection mantine-Select-rightSection"
+                >
+                  <svg
+                    data-chevron="true"
+                    fill="none"
+                    height="18"
+                    style="color: rgb(134, 142, 150);"
+                    viewBox="0 0 15 15"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <table
+          class="mantine-Table-root mantine-b146xb"
+          data-hover="true"
+        >
+          <thead>
+            <tr>
+              <th>
+                Manager id
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Phone No
+              </th>
+              <th>
+                Registration Date
+              </th>
+              <th>
+                license No
+              </th>
+              <th>
+                Status
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                1
+              </td>
+              <td>
+                John
+              </td>
+              <td>
+                1234567890
+              </td>
+              <td />
+              <td>
+                1889299
+              </td>
+              <td>
+                <div
+                  class="mantine-Badge-root mantine-wwgmak"
+                >
+                  <span
+                    class="mantine-h9iq4m mantine-Badge-inner"
+                  >
+                    PENDING
+                  </span>
+                </div>
+              </td>
+              <td>
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-1sy6mp7"
+                  data-button="true"
+                  data-testid="manager-approve-1"
+                  name="APPROVED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Approve
+                    </span>
+                  </div>
+                </button>
+                 
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-ofjsjw"
+                  data-button="true"
+                  data-testid="manager-reject-1"
+                  name="REJECTED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Reject
+                    </span>
+                  </div>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="mantine-Group-root mantine-1q3od06"
+          role="navigation"
+        >
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            aria-current="page"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            data-active="true"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ManagerList component created with pending managers and reject 1 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mantine-Paper-root mantine-Card-root mantine-ergsfy"
+    >
+      <div
+        class="mantine-Container-root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-Switch-root mantine-16ttirm"
+        >
+          <label
+            class="mantine-17do188 mantine-Switch-body"
+            for="mantine-rc"
+          >
+            <input
+              class="mantine-rpvocz mantine-Switch-input"
+              data-testid="pending-switch"
+              id="mantine-rc"
+              type="checkbox"
+            />
+            <div
+              class="mantine-5cv6k4 mantine-Switch-track"
+            >
+              <div
+                class="mantine-11dx59s mantine-Switch-thumb"
+              />
+              <div
+                class="mantine-69c9zd mantine-Switch-trackLabel"
+              />
+            </div>
+            <div
+              class="mantine-77b9op mantine-Switch-label"
+              data-testid="label"
+            >
+              Pending
+            </div>
+          </label>
+        </div>
+        <div
+          style="float: right;"
+        >
+          <div
+            class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+            >
+              <input
+                aria-invalid="false"
+                class="mantine-Input-input mantine-TextInput-input mantine-hxyb6n"
+                id="mantine-rd"
+                placeholder="name"
+                type="text"
+              />
+              <div
+                class="mantine-1n9cu5e mantine-Input-rightSection mantine-TextInput-rightSection"
+              >
+                <button
+                  class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-1lgihd9"
+                  type="button"
+                >
+                  <svg
+                    class="icon icon-tabler icon-tabler-search"
+                    fill="none"
+                    height="18"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="7"
+                    />
+                    <line
+                      x1="21"
+                      x2="15"
+                      y1="21"
+                      y2="15"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-InputWrapper-root mantine-Select-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              aria-controls="mantine-re"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              class=""
+              role="combobox"
+              tabindex="-1"
+            >
+              <input
+                type="hidden"
+                value=""
+              />
+              <div
+                class="mantine-Input-wrapper mantine-Select-wrapper mantine-12sbrde"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-invalid="false"
+                  autocomplete="off"
+                  class="mantine-Input-input mantine-Select-input mantine-1ajyf09"
+                  data-mantine-stop-propagation="false"
+                  id="mantine-re"
+                  placeholder="select filter"
+                  readonly=""
+                  type="search"
+                  value=""
+                />
+                <div
+                  class="mantine-uquezq mantine-Input-rightSection mantine-Select-rightSection"
+                >
+                  <svg
+                    data-chevron="true"
+                    fill="none"
+                    height="18"
+                    style="color: rgb(134, 142, 150);"
+                    viewBox="0 0 15 15"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <table
+          class="mantine-Table-root mantine-b146xb"
+          data-hover="true"
+        >
+          <thead>
+            <tr>
+              <th>
+                Manager id
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Phone No
+              </th>
+              <th>
+                Registration Date
+              </th>
+              <th>
+                license No
+              </th>
+              <th>
+                Status
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                1
+              </td>
+              <td>
+                John
+              </td>
+              <td>
+                1234567890
+              </td>
+              <td />
+              <td>
+                1889299
+              </td>
+              <td>
+                <div
+                  class="mantine-Badge-root mantine-wwgmak"
+                >
+                  <span
+                    class="mantine-h9iq4m mantine-Badge-inner"
+                  >
+                    PENDING
+                  </span>
+                </div>
+              </td>
+              <td>
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-1sy6mp7"
+                  data-button="true"
+                  data-testid="manager-approve-1"
+                  name="APPROVED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Approve
+                    </span>
+                  </div>
+                </button>
+                 
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-ofjsjw"
+                  data-button="true"
+                  data-testid="manager-reject-1"
+                  name="REJECTED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Reject
+                    </span>
+                  </div>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="mantine-Group-root mantine-1q3od06"
+          role="navigation"
+        >
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            aria-current="page"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            data-active="true"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ManagerList component created with pending managers and reject 1 2`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mantine-Paper-root mantine-Card-root mantine-ergsfy"
+    >
+      <div
+        class="mantine-Container-root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-Switch-root mantine-16ttirm"
+        >
+          <label
+            class="mantine-17do188 mantine-Switch-body"
+            for="mantine-rc"
+          >
+            <input
+              class="mantine-rpvocz mantine-Switch-input"
+              data-testid="pending-switch"
+              id="mantine-rc"
+              type="checkbox"
+            />
+            <div
+              class="mantine-5cv6k4 mantine-Switch-track"
+            >
+              <div
+                class="mantine-11dx59s mantine-Switch-thumb"
+              />
+              <div
+                class="mantine-69c9zd mantine-Switch-trackLabel"
+              />
+            </div>
+            <div
+              class="mantine-77b9op mantine-Switch-label"
+              data-testid="label"
+            >
+              Pending
+            </div>
+          </label>
+        </div>
+        <div
+          style="float: right;"
+        >
+          <div
+            class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+            >
+              <input
+                aria-invalid="false"
+                class="mantine-Input-input mantine-TextInput-input mantine-hxyb6n"
+                id="mantine-rd"
+                placeholder="name"
+                type="text"
+              />
+              <div
+                class="mantine-1n9cu5e mantine-Input-rightSection mantine-TextInput-rightSection"
+              >
+                <button
+                  class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-1lgihd9"
+                  type="button"
+                >
+                  <svg
+                    class="icon icon-tabler icon-tabler-search"
+                    fill="none"
+                    height="18"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="7"
+                    />
+                    <line
+                      x1="21"
+                      x2="15"
+                      y1="21"
+                      y2="15"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-InputWrapper-root mantine-Select-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              aria-controls="mantine-re"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              class=""
+              role="combobox"
+              tabindex="-1"
+            >
+              <input
+                type="hidden"
+                value=""
+              />
+              <div
+                class="mantine-Input-wrapper mantine-Select-wrapper mantine-12sbrde"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-invalid="false"
+                  autocomplete="off"
+                  class="mantine-Input-input mantine-Select-input mantine-1ajyf09"
+                  data-mantine-stop-propagation="false"
+                  id="mantine-re"
+                  placeholder="select filter"
+                  readonly=""
+                  type="search"
+                  value=""
+                />
+                <div
+                  class="mantine-uquezq mantine-Input-rightSection mantine-Select-rightSection"
+                >
+                  <svg
+                    data-chevron="true"
+                    fill="none"
+                    height="18"
+                    style="color: rgb(134, 142, 150);"
+                    viewBox="0 0 15 15"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <table
+          class="mantine-Table-root mantine-b146xb"
+          data-hover="true"
+        >
+          <thead>
+            <tr>
+              <th>
+                Manager id
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Phone No
+              </th>
+              <th>
+                Registration Date
+              </th>
+              <th>
+                license No
+              </th>
+              <th>
+                Status
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                1
+              </td>
+              <td>
+                John
+              </td>
+              <td>
+                1234567890
+              </td>
+              <td />
+              <td>
+                1889299
+              </td>
+              <td>
+                <div
+                  class="mantine-Badge-root mantine-wwgmak"
+                >
+                  <span
+                    class="mantine-h9iq4m mantine-Badge-inner"
+                  >
+                    PENDING
+                  </span>
+                </div>
+              </td>
+              <td>
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-1sy6mp7"
+                  data-button="true"
+                  data-testid="manager-approve-1"
+                  name="APPROVED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Approve
+                    </span>
+                  </div>
+                </button>
+                 
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root mantine-ofjsjw"
+                  data-button="true"
+                  data-testid="manager-reject-1"
+                  name="REJECTED"
+                  type="button"
+                  value="1"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      Reject
+                    </span>
+                  </div>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="mantine-Group-root mantine-1q3od06"
+          role="navigation"
+        >
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            aria-current="page"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            data-active="true"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ManagerList component created without data 1`] = `
+<DocumentFragment>
+  <div
+    class="mantine-8od8ev"
+    style="height: 80%;"
+  >
+    <svg
+      class="mantine-1avyp1d"
+      data-testid="Loading"
+      height="36px"
+      role="presentation"
+      stroke="#228be6"
+      viewBox="0 0 38 38"
+      width="36px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fill-rule="evenodd"
+      >
+        <g
+          stroke-width="5"
+          transform="translate(2.5 2.5)"
+        >
+          <circle
+            cx="16"
+            cy="16"
+            r="16"
+            stroke-opacity=".5"
+          />
+          <path
+            d="M32 16c0-9.94-8.06-16-16-16"
+          >
+            <animatetransform
+              attributeName="transform"
+              dur="1s"
+              from="0 16 16"
+              repeatCount="indefinite"
+              to="360 16 16"
+              type="rotate"
+            />
+          </path>
+        </g>
+      </g>
+    </svg>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ManagerList component creatednwith manager data 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mantine-Paper-root mantine-Card-root mantine-ergsfy"
+    >
+      <div
+        class="mantine-Container-root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-Switch-root mantine-16ttirm"
+        >
+          <label
+            class="mantine-17do188 mantine-Switch-body"
+            for="mantine-r4"
+          >
+            <input
+              class="mantine-rpvocz mantine-Switch-input"
+              data-testid="pending-switch"
+              id="mantine-r4"
+              type="checkbox"
+            />
+            <div
+              class="mantine-5cv6k4 mantine-Switch-track"
+            >
+              <div
+                class="mantine-11dx59s mantine-Switch-thumb"
+              />
+              <div
+                class="mantine-69c9zd mantine-Switch-trackLabel"
+              />
+            </div>
+            <div
+              class="mantine-77b9op mantine-Switch-label"
+              data-testid="label"
+            >
+              Pending
+            </div>
+          </label>
+        </div>
+        <div
+          style="float: right;"
+        >
+          <div
+            class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+            >
+              <input
+                aria-invalid="false"
+                class="mantine-Input-input mantine-TextInput-input mantine-hxyb6n"
+                id="mantine-r5"
+                placeholder="name"
+                type="text"
+              />
+              <div
+                class="mantine-1n9cu5e mantine-Input-rightSection mantine-TextInput-rightSection"
+              >
+                <button
+                  class="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-1lgihd9"
+                  type="button"
+                >
+                  <svg
+                    class="icon icon-tabler icon-tabler-search"
+                    fill="none"
+                    height="18"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="7"
+                    />
+                    <line
+                      x1="21"
+                      x2="15"
+                      y1="21"
+                      y2="15"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-InputWrapper-root mantine-Select-root mantine-1m3pqry"
+            style="width: 150px;"
+          >
+            <div
+              aria-controls="mantine-r6"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              class=""
+              role="combobox"
+              tabindex="-1"
+            >
+              <input
+                type="hidden"
+                value=""
+              />
+              <div
+                class="mantine-Input-wrapper mantine-Select-wrapper mantine-12sbrde"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-invalid="false"
+                  autocomplete="off"
+                  class="mantine-Input-input mantine-Select-input mantine-1ajyf09"
+                  data-mantine-stop-propagation="false"
+                  id="mantine-r6"
+                  placeholder="select filter"
+                  readonly=""
+                  type="search"
+                  value=""
+                />
+                <div
+                  class="mantine-uquezq mantine-Input-rightSection mantine-Select-rightSection"
+                >
+                  <svg
+                    data-chevron="true"
+                    fill="none"
+                    height="18"
+                    style="color: rgb(134, 142, 150);"
+                    viewBox="0 0 15 15"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <table
+          class="mantine-Table-root mantine-b146xb"
+          data-hover="true"
+        >
+          <thead>
+            <tr>
+              <th>
+                Manager id
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Phone No
+              </th>
+              <th>
+                Registration Date
+              </th>
+              <th>
+                license No
+              </th>
+              <th>
+                Status
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                1
+              </td>
+              <td>
+                John
+              </td>
+              <td>
+                1234567890
+              </td>
+              <td />
+              <td>
+                1889299
+              </td>
+              <td>
+                <div
+                  class="mantine-Badge-root mantine-1ftkdtg"
+                >
+                  <span
+                    class="mantine-h9iq4m mantine-Badge-inner"
+                  >
+                    APPROVED
+                  </span>
+                </div>
+              </td>
+              <td>
+                No Action Needed
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="mantine-Group-root mantine-1q3od06"
+          role="navigation"
+        >
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            aria-current="page"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            data-active="true"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-disabled="true"
+            class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

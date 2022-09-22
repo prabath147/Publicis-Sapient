@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Category list component created with fail event 1`] = `
+<DocumentFragment>
+  <div
+    class="mantine-Container-root mantine-15pjuqq"
+  >
+    <div
+      class="mantine-Paper-root mantine-Card-root mantine-xoj88x"
+    >
+      <form>
+        <div
+          class="mantine-Grid-root mantine-nsdj"
+        >
+          <div
+            class="mantine-Col-root mantine-lungan"
+          >
+            <div
+              class="mantine-InputWrapper-root mantine-TextInput-root mantine-1l2unfb"
+            >
+              <label
+                class="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+                for="mantine-r1"
+                id="mantine-r1-label"
+              >
+                Category Name
+                <span
+                  aria-hidden="true"
+                  class="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+                >
+                   *
+                </span>
+              </label>
+              <div
+                class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+              >
+                <input
+                  aria-invalid="false"
+                  class="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+                  data-testid="CategoryInput"
+                  id="mantine-r1"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-Col-root mantine-lungan"
+          >
+            <div
+              class="mantine-8od8ev"
+            >
+              <button
+                class="mantine-UnstyledButton-root mantine-Button-root mantine-8nr514"
+                data-button="true"
+                data-testid="Create-Category-Button"
+                type="button"
+              >
+                <div
+                  class="mantine-3xbgk5 mantine-Button-inner"
+                >
+                  <span
+                    class="mantine-qo1k2 mantine-Button-label"
+                  >
+                    Create
+                  </span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <table
+      class="mantine-Table-root mantine-b146xb"
+    >
+      <thead>
+        <tr>
+          <th>
+            Id
+          </th>
+          <th>
+            Name
+          </th>
+          <th>
+            Operations
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+    <div
+      class="mantine-1eabysl"
+    />
+    <div
+      class="mantine-Group-root mantine-1q3od06"
+      role="navigation"
+    >
+      <button
+        aria-disabled="true"
+        class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+        disabled=""
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <button
+        aria-current="page"
+        class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+        data-active="true"
+        tabindex="0"
+        type="button"
+      >
+        1
+      </button>
+      <button
+        aria-disabled="true"
+        class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+        disabled=""
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Category list component created without data 1`] = `
+<DocumentFragment>
+  <div
+    class="mantine-Container-root mantine-15pjuqq"
+  >
+    <div
+      class="mantine-Paper-root mantine-Card-root mantine-xoj88x"
+    >
+      <form>
+        <div
+          class="mantine-Grid-root mantine-nsdj"
+        >
+          <div
+            class="mantine-Col-root mantine-lungan"
+          >
+            <div
+              class="mantine-InputWrapper-root mantine-TextInput-root mantine-1l2unfb"
+            >
+              <label
+                class="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+                for="mantine-r0"
+                id="mantine-r0-label"
+              >
+                Category Name
+                <span
+                  aria-hidden="true"
+                  class="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+                >
+                   *
+                </span>
+              </label>
+              <div
+                class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+              >
+                <input
+                  aria-invalid="false"
+                  class="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+                  data-testid="CategoryInput"
+                  id="mantine-r0"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-Col-root mantine-lungan"
+          >
+            <div
+              class="mantine-8od8ev"
+            >
+              <button
+                class="mantine-UnstyledButton-root mantine-Button-root mantine-8nr514"
+                data-button="true"
+                data-testid="Create-Category-Button"
+                type="button"
+              >
+                <div
+                  class="mantine-3xbgk5 mantine-Button-inner"
+                >
+                  <span
+                    class="mantine-qo1k2 mantine-Button-label"
+                  >
+                    Create
+                  </span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <table
+      class="mantine-Table-root mantine-b146xb"
+    >
+      <thead>
+        <tr>
+          <th>
+            Id
+          </th>
+          <th>
+            Name
+          </th>
+          <th>
+            Operations
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            10000042
+          </td>
+          <td>
+            category0
+          </td>
+          <td>
+            <button
+              class="mantine-UnstyledButton-root mantine-Button-root mantine-ofjsjw"
+              data-button="true"
+              data-testid="category-list-10000042"
+              type="button"
+            >
+              <div
+                class="mantine-3xbgk5 mantine-Button-inner"
+              >
+                <span
+                  class="mantine-qo1k2 mantine-Button-label"
+                >
+                  Delete
+                </span>
+              </div>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="mantine-1eabysl"
+    />
+    <div
+      class="mantine-Group-root mantine-1q3od06"
+      role="navigation"
+    >
+      <button
+        aria-disabled="true"
+        class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+        disabled=""
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <button
+        aria-current="page"
+        class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+        data-active="true"
+        tabindex="0"
+        type="button"
+      >
+        1
+      </button>
+      <button
+        aria-disabled="true"
+        class="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+        disabled=""
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`component created 1`] = `
+<div
+  className="mantine-8od8ev"
+  style={
+    Object {
+      "height": "80%",
+    }
+  }
+>
+  <svg
+    className="mantine-1avyp1d"
+    data-testid="Loading"
+    height="36px"
+    role="presentation"
+    stroke="#228be6"
+    viewBox="0 0 38 38"
+    width="36px"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g
+      fill="none"
+      fillRule="evenodd"
+    >
+      <g
+        strokeWidth="5"
+        transform="translate(2.5 2.5)"
+      >
+        <circle
+          cx="16"
+          cy="16"
+          r="16"
+          strokeOpacity=".5"
+        />
+        <path
+          d="M32 16c0-9.94-8.06-16-16-16"
+        >
+          <animateTransform
+            attributeName="transform"
+            dur="1s"
+            from="0 16 16"
+            repeatCount="indefinite"
+            to="360 16 16"
+            type="rotate"
+          />
+        </path>
+      </g>
+    </g>
+  </svg>
+</div>
+`;

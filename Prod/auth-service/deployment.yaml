@@ -1,0 +1,46 @@
+# @format
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    labels:
+        app: auth-service
+    name: auth-service
+spec:
+    replicas: 4
+    strategy:
+        type: RollingUpdate
+    selector:
+        matchLabels:
+            app: auth-service
+    template:
+        metadata:
+            labels:
+                app: auth-service
+        spec:
+            containers:
+                - name: auth-service
+                  image: 832215930943.dkr.ecr.us-east-1.amazonaws.com/auth-service:latest
+                  imagePullPolicy: Always
+                  ports:
+                      - containerPort: 8081
+                        name: http
+                        protocol: TCP
+# service type loadbalancer
+---
+apiVersion: v1
+kind: Service
+metadata:
+    labels:
+        app: auth-service
+        k8s-app: auth-service
+    name: auth-service
+spec:
+    ports:
+        - name: http
+          port: 80
+          protocol: TCP
+          targetPort: 8081
+    type: LoadBalancer
+    selector:
+        app: auth-service

@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterSubscriptionPage component created 1`] = `
+Array [
+  " ",
+  <div
+    className="mantine-LoadingOverlay-root mantine-137kca9"
+    data-testid="Loading"
+    style={
+      Object {
+        "zIndex": 400,
+      }
+    }
+  >
+    <svg
+      className="mantine-1avyp1d"
+      height="36px"
+      role="presentation"
+      stroke="#228be6"
+      style={
+        Object {
+          "zIndex": "calc(400 + 1)",
+        }
+      }
+      viewBox="0 0 38 38"
+      width="36px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+      >
+        <g
+          strokeWidth="5"
+          transform="translate(2.5 2.5)"
+        >
+          <circle
+            cx="16"
+            cy="16"
+            r="16"
+            strokeOpacity=".5"
+          />
+          <path
+            d="M32 16c0-9.94-8.06-16-16-16"
+          >
+            <animateTransform
+              attributeName="transform"
+              dur="1s"
+              from="0 16 16"
+              repeatCount="indefinite"
+              to="360 16 16"
+              type="rotate"
+            />
+          </path>
+        </g>
+      </g>
+    </svg>
+    <div
+      className="mantine-Overlay-root mantine-8uy2jv"
+    />
+  </div>,
+  <div
+    className="mantine-Group-root mantine-fosyyf"
+    data-testid="paginationT"
+    role="navigation"
+  >
+    <button
+      aria-disabled={true}
+      className="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="none"
+        height={16}
+        viewBox="0 0 16 16"
+        width={16}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.219 8l3.3 3.3-.943.943L5.333 8l4.243-4.243.943.943-3.3 3.3z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+    <button
+      aria-current="page"
+      aria-label={null}
+      className="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+      data-active={true}
+      onClick={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      aria-disabled={true}
+      className="mantine-Group-child mantine-Pagination-item mantine-1bnfkxz"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        fill="none"
+        height={16}
+        viewBox="0 0 16 16"
+        width={16}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.781 8l-3.3-3.3.943-.943L10.667 8l-4.243 4.243-.943-.943 3.3-3.3z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+  </div>,
+]
+`;

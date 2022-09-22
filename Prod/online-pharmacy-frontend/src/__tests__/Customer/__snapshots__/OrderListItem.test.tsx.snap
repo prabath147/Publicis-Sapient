@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component created 1`] = `
+<div
+  className="mantine-Paper-root mantine-Card-root mantine-nanwuu"
+>
+  <div
+    className="mantine-Card-cardSection mantine-sse0oy"
+    data-first={true}
+    data-last={true}
+    padding="md"
+  >
+    <div
+      className="mantine-Grid-root mantine-nsdj"
+    >
+      <div
+        className="mantine-Col-root mantine-1vwjzh"
+      >
+        <div
+          className="mantine-Text-root mantine-1mw9aa3"
+        >
+          Order Placed
+        </div>
+        <div
+          className="mantine-Text-root mantine-1pbxw0k"
+        >
+          Thu Jan 13 2022 05:30:00 GMT+0530 (India Standard Time)
+        </div>
+      </div>
+      <div
+        className="mantine-Col-root mantine-1vwjzh"
+      >
+        <div
+          className="mantine-Text-root mantine-1qjc1bw"
+        >
+          Total
+        </div>
+        <div
+          className="mantine-Text-root mantine-1pe3xtm"
+        >
+          0
+        </div>
+      </div>
+      <div
+        className="mantine-Col-root mantine-1vwjzh"
+      >
+        <div
+          className="mantine-Text-root mantine-1mw9aa3"
+        >
+          Ship to
+        </div>
+        <div
+          className="mantine-Text-root mantine-1pbxw0k"
+        />
+      </div>
+      <div
+        className="mantine-Col-root mantine-1ddzqhw"
+      >
+        <div
+          className="mantine-Text-root mantine-1mw9aa3"
+        >
+          Shipping Address
+        </div>
+        <div
+          className="mantine-Text-root mantine-b62wm9"
+        >
+          , undefined undefined undefined undefined undefined
+        </div>
+      </div>
+      <div
+        className="mantine-Col-root mantine-1vwjzh"
+      >
+        <a
+          href="/orders/"
+          onClick={[Function]}
+        >
+          ORDER # 
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

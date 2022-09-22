@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderDetailPage should create a new OrderDetailPage 1`] = `
+<DocumentFragment>
+  <div
+    class="mantine-8od8ev"
+    style="height: 300px;"
+  >
+    <svg
+      class="mantine-1avyp1d"
+      data-testid="Loading"
+      height="36px"
+      role="presentation"
+      stroke="#228be6"
+      viewBox="0 0 38 38"
+      width="36px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fill-rule="evenodd"
+      >
+        <g
+          stroke-width="5"
+          transform="translate(2.5 2.5)"
+        >
+          <circle
+            cx="16"
+            cy="16"
+            r="16"
+            stroke-opacity=".5"
+          />
+          <path
+            d="M32 16c0-9.94-8.06-16-16-16"
+          >
+            <animatetransform
+              attributeName="transform"
+              dur="1s"
+              from="0 16 16"
+              repeatCount="indefinite"
+              to="360 16 16"
+              type="rotate"
+            />
+          </path>
+        </g>
+      </g>
+    </svg>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`OrderDetailPage should create a new on fail 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="mantine-Container-root mantine-15pjuqq"
+    >
+      <h1
+        class="mantine-Text-root mantine-Title-root mantine-dyfpg1"
+      >
+        Order Details
+      </h1>
+      <div
+        class="mantine-Group-root mantine-yrdz4u"
+      >
+        <div
+          class="mantine-Text-root mantine-Group-child mantine-1wsjsij"
+        >
+          Ordered on Wed Jan 01 2020 05:30:00 GMT+0530 (India Standard Time)
+        </div>
+        <div
+          class="mantine-Text-root mantine-Group-child mantine-1wsjsij"
+        >
+          Order# 1
+        </div>
+      </div>
+      <div
+        class="mantine-Divider-root mantine-Divider-horizontal mantine-polw48"
+        role="separator"
+      />
+      <div
+        class="mantine-Paper-root mantine-Card-root mantine-xoj88x"
+      >
+        <div
+          class="mantine-Grid-root mantine-1xetgn3"
+        >
+          <div
+            class="mantine-Col-root mantine-1r1hpk"
+          >
+            <h5
+              class="mantine-Text-root mantine-Title-root mantine-1cdc0tb"
+            >
+              Shipping Address
+            </h5>
+            <div
+              class="mantine-Text-root mantine-1pbxw0k"
+            >
+              , , ,
+              <br />
+              , 
+            </div>
+          </div>
+          <div
+            class="mantine-Col-root mantine-1r1hpk"
+          >
+            <h5
+              class="mantine-Text-root mantine-Title-root mantine-1cdc0tb"
+            >
+              Payment Method
+            </h5>
+            <div
+              class="mantine-Text-root mantine-1pbxw0k"
+            >
+              Pay on Delivery (Cash/Card). Cash on delivery (COD) available. Card/Net banking acceptance subject to device availability.
+            </div>
+          </div>
+          <div
+            class="mantine-Col-root mantine-1r1hpk"
+          >
+            <h5
+              class="mantine-Text-root mantine-Title-root mantine-1cdc0tb"
+            >
+              Order Summary
+            </h5>
+            <div
+              class="mantine-Group-root mantine-aa1sbi"
+            >
+              <div
+                class="mantine-Text-root mantine-Group-child mantine-1wsjsij"
+              >
+                Item(s) Subtotal:
+              </div>
+              <div
+                class="mantine-Text-root mantine-Group-child mantine-1wsjsij"
+              >
+                 ₹1
+              </div>
+            </div>
+            <div
+              class="mantine-Group-root mantine-aa1sbi"
+            >
+              <div
+                class="mantine-Text-root mantine-Group-child mantine-1wsjsij"
+              >
+                Shipping:
+              </div>
+              <div
+                class="mantine-Text-root mantine-Group-child mantine-1wsjsij"
+              >
+                 ₹ 100
+              </div>
+            </div>
+            <div
+              class="mantine-Group-root mantine-aa1sbi"
+            >
+              <div
+                class="mantine-Text-root mantine-Group-child mantine-1wsjsij"
+              >
+                Promotion Applied:
+              </div>
+              <div
+                class="mantine-Text-root mantine-Group-child mantine-1wsjsij"
+              >
+                 -100 
+              </div>
+            </div>
+            <div
+              class="mantine-Group-root mantine-aa1sbi"
+            >
+              <div
+                class="mantine-Text-root mantine-Group-child mantine-738zg2"
+              >
+                Grand Total:
+              </div>
+              <div
+                class="mantine-Text-root mantine-Group-child mantine-738zg2"
+              >
+                 1 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      Component
+    </div>
+  </div>
+</DocumentFragment>
+`;

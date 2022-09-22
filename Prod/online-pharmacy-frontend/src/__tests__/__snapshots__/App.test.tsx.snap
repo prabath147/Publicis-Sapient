@@ -1,0 +1,330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div
+  data-testid="app"
+>
+  <div
+    className="mantine-Container-root mantine-15pjuqq"
+  >
+    <div
+      className="main-nav"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <div
+          className="mantine-Image-root mantine-15po0m8"
+          style={
+            Object {
+              "height": "auto",
+              "width": "100%",
+            }
+          }
+        >
+          <figure
+            className="mantine-11nhzn5 mantine-Image-figure"
+          >
+            <div
+              className="mantine-qqmv3w mantine-Image-imageWrapper"
+            >
+              <img
+                className="mantine-3y8yz3 mantine-Image-image"
+                onError={[Function]}
+                onLoad={[Function]}
+                src="logo.jpg"
+                style={
+                  Object {
+                    "height": "auto",
+                    "objectFit": "cover",
+                    "width": "100%",
+                  }
+                }
+              />
+            </div>
+          </figure>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div>
+    <div
+      className="mantine-Container-root mantine-15pjuqq"
+    >
+      <div
+        className="mantine-rl3tvd"
+      >
+        <div
+          className="mantine-vdkfn5"
+        >
+          <h1
+            className="mantine-Text-root mantine-Title-root mantine-10qiqy4"
+          >
+            <span
+              className="mantine-p6tf2k"
+            >
+              PillZone
+            </span>
+            - An Online Marketplace for Pharmaceutical Products!
+          </h1>
+          <div
+            className="mantine-Text-root mantine-qw4l90"
+          >
+            We offer a huge catalog of medicines and health care products, sourced from various offline pharmacies and medicine companies.
+          </div>
+          <ul
+            className="mantine-List-root mantine-ephyri"
+          >
+            <li
+              className="mantine-List-item mantine-List-withIcon mantine-990sqx"
+            >
+              <div
+                className="__mantine-ref-itemWrapper mantine-1hf9p21 mantine-List-itemWrapper"
+              >
+                <span
+                  className="mantine-amxt3q mantine-List-itemIcon"
+                >
+                  <div
+                    className="mantine-ThemeIcon-root mantine-17dkyrq"
+                  >
+                    <svg
+                      className="icon icon-tabler icon-tabler-check"
+                      fill="none"
+                      height={12}
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      viewBox="0 0 24 24"
+                      width={12}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                        stroke="none"
+                      />
+                      <path
+                        d="M5 12l5 5l10 -10"
+                      />
+                    </svg>
+                  </div>
+                </span>
+                <span>
+                  <b>
+                    Tactically Optimized Inventory
+                  </b>
+                </span>
+              </div>
+            </li>
+            <li
+              className="mantine-List-item mantine-List-withIcon mantine-990sqx"
+            >
+              <div
+                className="__mantine-ref-itemWrapper mantine-1hf9p21 mantine-List-itemWrapper"
+              >
+                <span
+                  className="mantine-amxt3q mantine-List-itemIcon"
+                >
+                  <div
+                    className="mantine-ThemeIcon-root mantine-17dkyrq"
+                  >
+                    <svg
+                      className="icon icon-tabler icon-tabler-check"
+                      fill="none"
+                      height={12}
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      viewBox="0 0 24 24"
+                      width={12}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                        stroke="none"
+                      />
+                      <path
+                        d="M5 12l5 5l10 -10"
+                      />
+                    </svg>
+                  </div>
+                </span>
+                <span>
+                  <b>
+                    Least Price Centered Design
+                  </b>
+                </span>
+              </div>
+            </li>
+            <li
+              className="mantine-List-item mantine-List-withIcon mantine-990sqx"
+            >
+              <div
+                className="__mantine-ref-itemWrapper mantine-1hf9p21 mantine-List-itemWrapper"
+              >
+                <span
+                  className="mantine-amxt3q mantine-List-itemIcon"
+                >
+                  <div
+                    className="mantine-ThemeIcon-root mantine-17dkyrq"
+                  >
+                    <svg
+                      className="icon icon-tabler icon-tabler-check"
+                      fill="none"
+                      height={12}
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      viewBox="0 0 24 24"
+                      width={12}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                        stroke="none"
+                      />
+                      <path
+                        d="M5 12l5 5l10 -10"
+                      />
+                    </svg>
+                  </div>
+                </span>
+                <span>
+                  <b>
+                    Automatic Reading of Uploaded Prescriptions
+                  </b>
+                </span>
+              </div>
+            </li>
+            <li
+              className="mantine-List-item mantine-List-withIcon mantine-990sqx"
+            >
+              <div
+                className="__mantine-ref-itemWrapper mantine-1hf9p21 mantine-List-itemWrapper"
+              >
+                <span
+                  className="mantine-amxt3q mantine-List-itemIcon"
+                >
+                  <div
+                    className="mantine-ThemeIcon-root mantine-17dkyrq"
+                  >
+                    <svg
+                      className="icon icon-tabler icon-tabler-check"
+                      fill="none"
+                      height={12}
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      viewBox="0 0 24 24"
+                      width={12}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                        stroke="none"
+                      />
+                      <path
+                        d="M5 12l5 5l10 -10"
+                      />
+                    </svg>
+                  </div>
+                </span>
+                <span>
+                  <b>
+                    Reminders to our Opted-In Customers 
+                  </b>
+                </span>
+              </div>
+            </li>
+          </ul>
+          <div
+            className="mantine-Group-root mantine-inb06y"
+          >
+            <button
+              className="mantine-UnstyledButton-root mantine-Button-root mantine-Group-child mantine-tlshck"
+              data-button={true}
+              onClick={[Function]}
+              type="button"
+            >
+              <div
+                className="mantine-3xbgk5 mantine-Button-inner"
+              >
+                <span
+                  className="mantine-qo1k2 mantine-Button-label"
+                  style={
+                    Object {
+                      "textTransform": undefined,
+                    }
+                  }
+                >
+                  Login
+                </span>
+              </div>
+            </button>
+            <button
+              className="mantine-UnstyledButton-root mantine-Button-root mantine-Group-child mantine-11qo0g4"
+              data-button={true}
+              onClick={[Function]}
+              type="button"
+            >
+              <div
+                className="mantine-3xbgk5 mantine-Button-inner"
+              >
+                <span
+                  className="mantine-qo1k2 mantine-Button-label"
+                  style={
+                    Object {
+                      "textTransform": undefined,
+                    }
+                  }
+                >
+                  Register
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          className="mantine-Image-root animate__animated animate__backInRight mantine-15po0m8"
+          style={
+            Object {
+              "height": 500,
+              "width": "100%",
+            }
+          }
+        >
+          <figure
+            className="mantine-11nhzn5 mantine-Image-figure"
+          >
+            <div
+              className="mantine-qqmv3w mantine-Image-imageWrapper"
+            >
+              <img
+                className="mantine-3y8yz3 mantine-Image-image"
+                onError={[Function]}
+                onLoad={[Function]}
+                src="8000.jpg"
+                style={
+                  Object {
+                    "height": 500,
+                    "objectFit": "contain",
+                    "width": "100%",
+                  }
+                }
+              />
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

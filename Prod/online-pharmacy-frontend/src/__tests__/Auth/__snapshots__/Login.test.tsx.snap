@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component created 1`] = `
+Array [
+  <div
+    className="mantine-Container-root mantine-15pjuqq"
+  >
+    <div
+      className="main-nav"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <div
+          className="mantine-Image-root mantine-15po0m8"
+          style={
+            Object {
+              "height": "auto",
+              "width": "100%",
+            }
+          }
+        >
+          <figure
+            className="mantine-11nhzn5 mantine-Image-figure"
+          >
+            <div
+              className="mantine-qqmv3w mantine-Image-imageWrapper"
+            >
+              <img
+                className="mantine-3y8yz3 mantine-Image-image"
+                onError={[Function]}
+                onLoad={[Function]}
+                src="logo.jpg"
+                style={
+                  Object {
+                    "height": "auto",
+                    "objectFit": "cover",
+                    "width": "100%",
+                  }
+                }
+              />
+            </div>
+          </figure>
+        </div>
+      </a>
+    </div>
+  </div>,
+  <div
+    className="mantine-Container-root mantine-1tg98w8"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <h1
+        className="mantine-Text-root mantine-Title-root animate__animated animate__pulse mantine-l5hqso"
+      >
+        Log In
+      </h1>
+      <div
+        className="mantine-Text-root mantine-wtjg8l"
+      >
+        Do not have an account yet?
+         
+        <a
+          href="/register"
+          onClick={[Function]}
+        >
+          Create account 
+        </a>
+      </div>
+      <div
+        className="mantine-Paper-root mantine-16boms2"
+      >
+        <div
+          className="mantine-InputWrapper-root mantine-TextInput-root mantine-1l2unfb"
+        >
+          <label
+            className="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+            htmlFor="mantine-r0"
+            id="mantine-r0-label"
+          >
+            User Name
+            <span
+              aria-hidden={true}
+              className="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+            >
+               *
+            </span>
+          </label>
+          <div
+            className="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+          >
+            <input
+              aria-invalid={false}
+              className="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+              id="mantine-r0"
+              onChange={[Function]}
+              onFocus={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="mantine-InputWrapper-root mantine-PasswordInput-root mantine-1l2unfb"
+        >
+          <label
+            className="mantine-InputWrapper-label mantine-PasswordInput-label mantine-ittua2"
+            htmlFor="mantine-r1"
+            id="mantine-r1-label"
+          >
+            Password
+            <span
+              aria-hidden={true}
+              className="mantine-u5apz8 mantine-InputWrapper-required mantine-PasswordInput-required"
+            >
+               *
+            </span>
+          </label>
+          <div
+            className="mantine-Input-wrapper mantine-PasswordInput-wrapper mantine-12sbrde"
+          >
+            <div
+              aria-invalid={false}
+              className="mantine-PasswordInput-input mantine-Input-input mantine-PasswordInput-input mantine-6k8x11"
+            >
+              <input
+                className="mantine-164y8ej mantine-PasswordInput-innerInput"
+                id="mantine-r1"
+                onChange={[Function]}
+                onFocus={[Function]}
+                type="password"
+                value=""
+              />
+            </div>
+            <div
+              className="mantine-o3oqoy mantine-Input-rightSection mantine-PasswordInput-rightSection"
+            >
+              <button
+                aria-hidden={true}
+                className="mantine-UnstyledButton-root mantine-ActionIcon-root mantine-PasswordInput-visibilityToggle mantine-1dcetaa"
+                disabled={false}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                tabIndex={-1}
+                type="button"
+              >
+                <svg
+                  fill="none"
+                  height={15}
+                  viewBox="0 0 15 15"
+                  width={15}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clipRule="evenodd"
+                    d="M7.5 11C4.80285 11 2.52952 9.62184 1.09622 7.50001C2.52952 5.37816 4.80285 4 7.5 4C10.1971 4 12.4705 5.37816 13.9038 7.50001C12.4705 9.62183 10.1971 11 7.5 11ZM7.5 3C4.30786 3 1.65639 4.70638 0.0760002 7.23501C-0.0253338 7.39715 -0.0253334 7.60288 0.0760014 7.76501C1.65639 10.2936 4.30786 12 7.5 12C10.6921 12 13.3436 10.2936 14.924 7.76501C15.0253 7.60288 15.0253 7.39715 14.924 7.23501C13.3436 4.70638 10.6921 3 7.5 3ZM7.5 9.5C8.60457 9.5 9.5 8.60457 9.5 7.5C9.5 6.39543 8.60457 5.5 7.5 5.5C6.39543 5.5 5.5 6.39543 5.5 7.5C5.5 8.60457 6.39543 9.5 7.5 9.5Z"
+                    fill="currentColor"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="mantine-Text-root mantine-1ggy16k"
+        >
+          <a
+            href="/forgot-password-email"
+            onClick={[Function]}
+          >
+            Forgot Password?
+          </a>
+        </div>
+        <button
+          className="mantine-UnstyledButton-root mantine-Button-root mantine-11wm0w1"
+          data-button={true}
+          type="submit"
+        >
+          <div
+            className="mantine-3xbgk5 mantine-Button-inner"
+          >
+            <span
+              className="mantine-qo1k2 mantine-Button-label"
+              style={
+                Object {
+                  "textTransform": undefined,
+                }
+              }
+            >
+              Sign in
+            </span>
+          </div>
+        </button>
+      </div>
+    </form>
+  </div>,
+]
+`;

@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressForm unit tests component created 1`] = `
+<div>
+  <div>
+    <div
+      className="mantine-a9v14h"
+    />
+    <div
+      className="mantine-Text-root mantine-1pbxw0k"
+    >
+      Address
+    </div>
+    <div
+      className="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+    >
+      <label
+        className="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+        htmlFor="mantine-r0"
+        id="mantine-r0-label"
+      >
+        Street
+        <span
+          aria-hidden={true}
+          className="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+        >
+           *
+        </span>
+      </label>
+      <div
+        className="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+      >
+        <input
+          aria-invalid={false}
+          className="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+          id="mantine-r0"
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Street"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+    >
+      <label
+        className="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+        htmlFor="mantine-r1"
+        id="mantine-r1-label"
+      >
+        City
+        <span
+          aria-hidden={true}
+          className="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+        >
+           *
+        </span>
+      </label>
+      <div
+        className="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+      >
+        <input
+          aria-invalid={false}
+          className="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+          id="mantine-r1"
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="City"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+    >
+      <label
+        className="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+        htmlFor="mantine-r2"
+        id="mantine-r2-label"
+      >
+        State
+        <span
+          aria-hidden={true}
+          className="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+        >
+           *
+        </span>
+      </label>
+      <div
+        className="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+      >
+        <input
+          aria-invalid={false}
+          className="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+          id="mantine-r2"
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="State"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+    >
+      <label
+        className="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+        htmlFor="mantine-r3"
+        id="mantine-r3-label"
+      >
+        Country
+        <span
+          aria-hidden={true}
+          className="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+        >
+           *
+        </span>
+      </label>
+      <div
+        className="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+      >
+        <input
+          aria-invalid={false}
+          className="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+          id="mantine-r3"
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Country"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+    >
+      <label
+        className="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+        htmlFor="mantine-r4"
+        id="mantine-r4-label"
+      >
+        Pincode
+        <span
+          aria-hidden={true}
+          className="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+        >
+           *
+        </span>
+      </label>
+      <div
+        className="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+      >
+        <input
+          aria-invalid={false}
+          className="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+          id="mantine-r4"
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="PinCode"
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    place order
+  </button>
+</div>
+`;
+
+exports[`AddressForm unit tests test validations 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <div
+        class="mantine-a9v14h"
+      />
+      <div
+        class="mantine-Text-root mantine-1pbxw0k"
+      >
+        Address
+      </div>
+      <div
+        class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+      >
+        <label
+          class="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+          for="mantine-r0"
+          id="mantine-r0-label"
+        >
+          Street
+          <span
+            aria-hidden="true"
+            class="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+          >
+             *
+          </span>
+        </label>
+        <div
+          class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+        >
+          <input
+            aria-invalid="false"
+            class="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+            id="mantine-r0"
+            placeholder="Street"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+      >
+        <label
+          class="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+          for="mantine-r1"
+          id="mantine-r1-label"
+        >
+          City
+          <span
+            aria-hidden="true"
+            class="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+          >
+             *
+          </span>
+        </label>
+        <div
+          class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+        >
+          <input
+            aria-invalid="false"
+            class="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+            id="mantine-r1"
+            placeholder="City"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+      >
+        <label
+          class="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+          for="mantine-r2"
+          id="mantine-r2-label"
+        >
+          State
+          <span
+            aria-hidden="true"
+            class="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+          >
+             *
+          </span>
+        </label>
+        <div
+          class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+        >
+          <input
+            aria-invalid="false"
+            class="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+            id="mantine-r2"
+            placeholder="State"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+      >
+        <label
+          class="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+          for="mantine-r3"
+          id="mantine-r3-label"
+        >
+          Country
+          <span
+            aria-hidden="true"
+            class="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+          >
+             *
+          </span>
+        </label>
+        <div
+          class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+        >
+          <input
+            aria-invalid="false"
+            class="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+            id="mantine-r3"
+            placeholder="Country"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="mantine-InputWrapper-root mantine-TextInput-root mantine-1m3pqry"
+      >
+        <label
+          class="mantine-InputWrapper-label mantine-TextInput-label mantine-ittua2"
+          for="mantine-r4"
+          id="mantine-r4-label"
+        >
+          Pincode
+          <span
+            aria-hidden="true"
+            class="mantine-u5apz8 mantine-InputWrapper-required mantine-TextInput-required"
+          >
+             *
+          </span>
+        </label>
+        <div
+          class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-12sbrde"
+        >
+          <input
+            aria-invalid="false"
+            class="mantine-Input-input mantine-TextInput-input mantine-gqmpge"
+            id="mantine-r4"
+            placeholder="PinCode"
+            type="number"
+          />
+        </div>
+      </div>
+    </div>
+    <button>
+      place order
+    </button>
+  </div>
+</DocumentFragment>
+`;

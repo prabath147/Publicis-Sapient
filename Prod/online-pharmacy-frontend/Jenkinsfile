@@ -1,0 +1,83 @@
+
+pipeline {
+	agent any
+
+	tools {
+		nodejs 'Nodejs'
+	}
+
+	environment{
+		scannerHome = tool 'SonarQubeScanner'
+	}
+
+	stages {
+
+		stage("Clone Code from Repository"){
+			steps{
+				bbs_checkout branches: [[name: '*/development']], credentialsId: 'bitbucket_admin', id: '5d33da1f-cf9d-41b5-b0bb-043e6117beeb', projectName: 'PSI-2022 June ASDE Batch 3', repositoryName: 'online-pharmacy-frontend', serverId: '9d049c85-48b6-452e-8478-7519760f9383'
+			}
+		}
+
+		stage("Install dependencies"){
+			steps{
+				sh "npm i"
+			}
+		}
+
+		// stage("Run Tests"){
+		// 	steps{
+		// 		sh "npm test"
+		// 	}
+		// }
+
+		stage('Test') {
+			steps {
+				sh 'npm run test-coverage'
+			}
+			// post {
+			// 	always {
+			// 		step([$class: 'CoberturaPublisher', coberturaReportFile: 'coverage/jest/cobertura-coverage.xml'])
+			// 	}
+			// }
+		}
+
+		stage('SonarQube analysis') {
+			steps {
+				withSonarQubeEnv('sonarqube-server') {
+					sh "true || sonar-scanner -Dsonar.host.url=http://52.87.16.248:9000 -Dsonar.login=sqa_14ef62e3b9f5a5055cbab61b792f0ee4f49984ca -Dsonar.projectKey=PSIJUN_online-pharmacy-frontend_AYKBOmrSwJp4qJ80FhK9 -Dsonar.typescript.lcov.reportPaths=coverage/jest/lcov.info"
+				}
+			}
+		}
+
+		stage("SonarQube Quality Gate"){
+			steps{
+				timeout(time:3, unit:'MINUTES'){
+					waitForQualityGate abortPipeline: true, credentialsId: 'sonarqube_token'
+				}
+			}
+		}
+
+		stage('Deploy') {
+			when {
+				expression {
+					currentBuild.result == null || currentBuild.result == 'SUCCESS'
+				}
+			}
+			steps {
+				sh "true || aws s3 rm s3://react-junasdebatch3-hosting/ --recursive"
+				sh "true || aws s3 cp build/ s3://react-junasdebatch3-hosting/ --recursive"
+				sh "true || aws cloudfront create-invalidation --distribution-id E31ZZ1V4FKKR2B  --paths '/*'"
+			}
+		}
+	}
+
+	post
+	{
+		always
+		{
+			echo 'One way or another, I have finished'
+			deleteDir()
+		}
+	}
+
+}

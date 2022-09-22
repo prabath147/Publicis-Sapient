@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component created 1`] = `
+<div
+  className="mantine-Container-root mantine-15pjuqq"
+>
+  <div
+    data-testid="about"
+  >
+    About
+  </div>
+</div>
+`;

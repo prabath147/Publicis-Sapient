@@ -1,0 +1,24 @@
+
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.main-nav {
+  margin-top: 2.5rem;
+  width: 6rem;
+}
+
+
+.wel-msg{
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register{
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+}
+
